@@ -10,7 +10,7 @@ import re
 GITHUB_URL = "https://github.com/Afrispan-Data-Labs/ai-governance-suite"
 SITE_NAME = "Afrispan Data Labs"
 DOMAIN = "afrispan.com"
-CONTACT_EMAIL = f"hello@{DOMAIN}"
+CONTACT_EMAIL = f"contact@{DOMAIN}"
 
 NAV_ITEMS = [
     ("index.html", "Home"),

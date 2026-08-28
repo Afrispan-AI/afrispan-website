@@ -615,8 +615,8 @@ CONTACT_CONTENT = f"""
     <div class="grid grid-2">
       <div>
         <h2>Reach us directly</h2>
-        <p><a class="btn btn-primary" href="mailto:hello@afrispan.com">Email hello@afrispan.com</a></p>
-        <p class="small-note">This address is set up alongside Afrispan's domain launch. If you do not hear back promptly, the GitHub organisation page below carries a current point of contact.</p>
+        <p><a class="btn btn-primary" href="mailto:contact@afrispan.com">Email contact@afrispan.com</a></p>
+        <p class="small-note">Afrispan's domain registration is in progress. If email does not reach us promptly, the GitHub organisation page below carries a current point of contact.</p>
         <ul class="tier-list" style="margin-top:20px;">
           <li>Operating base: Lagos, Nigeria</li>
           <li>Remote-first, with regular in-market presence planned</li>
