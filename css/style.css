@@ -655,8 +655,9 @@ footer.site-footer {
   margin-bottom: 14px;
 }
 .footer-grid ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.footer-grid a { color: #AAB9D6; }
+.footer-grid a { color: #AAB9D6; display: inline-flex; align-items: center; gap: 8px; }
 .footer-grid a:hover { color: var(--white); }
+.footer-icon { width: 15px; height: 15px; flex-shrink: 0; }
 .footer-wordmark img { height: 30px; margin-bottom: 14px; }
 .footer-brand {
   display: flex;
