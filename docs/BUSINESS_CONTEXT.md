@@ -24,8 +24,10 @@ Steve Onyeke, founder of Afrispan Data Labs, an AI deployment assurance practice
 ## Company Facts
 
 - **Name:** Afrispan Data Labs
-- **Founder:** Steve Onyeke
+- **Founder:** Steve Onyeke, Founder and AI Governance Lead
 - **Mission:** To make African enterprises deploying AI systems provably safe, compliant, and accountable, through independent, evidence-based verification rather than vendor assertion.
+- **UK connection, stated honestly, not overstated:** the founder is based in Manchester, United Kingdom. A formal UK corporate registration is currently underway alongside the Nigerian registration, treated as in progress, not yet complete, the same honest-status treatment as the domain registration below. This is a real, deliberate credibility factor for Nigerian buyers who value foreign-linked technical assurance, not a UK go-to-market strategy, that remains explicitly out of scope.
+- **Social profiles:** X at x.com/afrispan, LinkedIn at linkedin.com/company/afrispan-data-labs.
 - **Primary market:** Nigeria, specifically Lagos first, fintech and digital-first SMEs. This is a deliberate revision from Afrispan's original 2024 Ghana-first plan, reasoned in the business plan on scale and regulatory-timing grounds, not a change of mission. Ghana and wider ECOWAS remain a real phase-two market via AfCFTA.
 - **Status:** Founder-funded, pre-revenue, actively pursuing first paid engagements.
 - **GitHub:** github.com/Afrispan-Data-Labs/ai-governance-suite, public, migrated with full commit history intact from the original personal repository. The old personal repo (github.com/steveonyeke/python-ai-governance) should carry a note pointing here and be archived, not deleted, since it's still linked from Steve's own career materials.

@@ -11,6 +11,8 @@ GITHUB_URL = "https://github.com/Afrispan-Data-Labs/ai-governance-suite"
 SITE_NAME = "Afrispan Data Labs"
 DOMAIN = "afrispan.com"
 CONTACT_EMAIL = f"contact@{DOMAIN}"
+X_URL = "https://x.com/afrispan"
+LINKEDIN_URL = "https://linkedin.com/company/afrispan-data-labs"
 
 NAV_ITEMS = [
     ("index.html", "Home"),
@@ -93,6 +95,8 @@ FOOTER = """</main>
         <h4>Contact</h4>
         <ul>
           <li><a href="mailto:{email}">{email}</a></li>
+          <li><a href="{x_url}" target="_blank" rel="noopener">X: @afrispan</a></li>
+          <li><a href="{linkedin_url}" target="_blank" rel="noopener">LinkedIn</a></li>
           <li>Lagos, Nigeria (operating base)</li>
           <li>West Africa focus, remote-first</li>
         </ul>
@@ -125,7 +129,7 @@ def build_page(active_file, title, description, content):
         nav_links=render_nav_links(active_file),
         site_name=SITE_NAME,
     )
-    footer = FOOTER.format(github=GITHUB_URL, email=CONTACT_EMAIL, site_name=SITE_NAME)
+    footer = FOOTER.format(github=GITHUB_URL, email=CONTACT_EMAIL, site_name=SITE_NAME, x_url=X_URL, linkedin_url=LINKEDIN_URL)
     html = head + content + footer
     return html
 

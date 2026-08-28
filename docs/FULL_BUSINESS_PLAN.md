@@ -70,11 +70,13 @@ A West Africa where no enterprise deploys an AI system that materially affects a
 
 ### Founding Story and Rationale
 
-Afrispan was founded in January 2024 by Steve Onyeke, an AI Governance Specialist with over eight years of enterprise technology risk and delivery governance experience, most recently as a Technology Risk and Data Governance Analyst in a regulated healthtech environment, and currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing. Afrispan's technical foundation was built as a deliberate, evidence-first curriculum, not a theoretical framework, resulting in real, working governance systems, kill-switches, cross-model evaluation architecture, red-teaming mapped to international security standards, and live orchestration infrastructure, published openly and independently verifiable.
+Afrispan was founded in January 2024 by Steve Onyeke, Founder and AI Governance Lead, with over eight years of enterprise technology risk and delivery governance experience, most recently as a Technology Risk and Data Governance Analyst in a regulated healthtech environment, and currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing. Afrispan's technical foundation was built as a deliberate, evidence-first curriculum, not a theoretical framework, resulting in real, working governance systems, kill-switches, cross-model evaluation architecture, red-teaming mapped to international security standards, and live orchestration infrastructure, published openly and independently verifiable.
 
 ### Legal Structure and Geography
 
-Afrispan Data Labs is positioned to incorporate as a Nigerian limited liability entity, with its primary operating base in Lagos, Nigeria's principal technology and financial services hub, and its founder currently based in Manchester, United Kingdom, operating remotely with regular in-market presence planned. This structure is deliberately chosen: Lagos hosts the Central Bank of Nigeria's AI-focused fintech sandbox, a growing concentration of NITDA-adjacent policy activity, and, per recent industry reporting, Africa's first regional AI safety institute, placing Afrispan inside the country's actual centre of AI governance activity rather than adjacent to it.
+Afrispan Data Labs operates with a genuine dual-market foundation, not an aspirational one. The founder is based in Manchester, United Kingdom, giving Afrispan direct, current proximity to the international standards, EU AI Act, NIST AI RMF, ISO/IEC 42001, its methodology is built against, and to the institutional and investor-grade due diligence norms Nigerian enterprises increasingly need to satisfy. A formal United Kingdom corporate registration is underway alongside the company's Nigerian registration, both treated as near-term, committed milestones, not completed facts, consistent with this plan's own discipline of never stating a pending action as already finished.
+
+Primary commercial and delivery operations are based in Lagos, Nigeria's principal technology and financial services hub. This is a deliberate choice: Lagos hosts the Central Bank of Nigeria's AI-focused fintech sandbox, a growing concentration of NITDA-adjacent policy activity, and, per recent industry reporting, Africa's first regional AI safety institute, placing Afrispan inside the country's actual centre of AI governance activity rather than adjacent to it.
 
 ## 3. The Problem
 
@@ -214,6 +216,10 @@ This section is grounded in the Nigeria Data Protection Commission's own public 
 
 **The Real, Sourced Gap This Reveals:** Every organisation on Nigeria's own licensed DPCO list is a general data protection auditor, a law firm, an accounting affiliate, or a generalist IT consultancy. None publish a technical methodology for evaluating an AI system's actual behaviour, cross-model judging to catch a same-family evaluator's blind spots, adversarial red-teaming mapped to OWASP or MITRE ATLAS, or drift monitoring to catch a system degrading over time. Independent industry commentary on choosing a DPCO makes this gap explicit: a generalist auditor evaluating an AI-driven credit scoring or fraud-detection system will miss explainability and technical risks a non-technical auditor is not equipped to check. That is the precise, sourced gap Afrispan is built to fill, not a claimed differentiation, a documented absence in the current market.
 
+### Why the UK Foundation Matters to Nigerian Buyers
+
+One real, worth-naming factor sits outside the two-axis framing above: Nigerian enterprises, particularly those seeking institutional investment or serving international counterparties, place genuine, documented value in foreign-linked technical credibility when de-risking a technology decision. Afrispan's founder is based in the United Kingdom, and a formal UK corporate registration is currently underway alongside the company's Nigerian registration, described honestly in Section 2 as in progress, not yet complete. Once formalised, this gives Afrispan a genuine dual-market foundation none of the Nigeria-only competitors named above can claim, direct proximity to the international standards this methodology is built against, useful specifically in conversations with venture-backed fintechs preparing investor due diligence, or platforms expanding into UK and European corridors. This is a real, structural advantage worth stating plainly once the registration is complete, not a claim to make ahead of it.
+
 ### Positioning on Two Axes
 
 The clearest way to see Afrispan's actual competitive position is against two dimensions at once: cost and accessibility to a Nigerian SME on one axis, and depth of technical, working proof on the other.
@@ -264,6 +270,8 @@ Expansion into Ghana and the wider ECOWAS region, positioned explicitly through 
 
 - **Referral from professional and regulatory networks:** relationships built through pursuit of DPCO status and engagement with NDPC-adjacent compliance networks.
 
+- **Investor and cross-border counterparty conversations, once UK registration completes:** venture-backed Nigerian fintechs preparing investor due diligence, and platforms expanding into UK or European corridors, are a natural audience for Afrispan's dual-market foundation, addressed honestly as it actually stands at the time of outreach, not overstated ahead of the registration itself finishing.
+
 ### Specific First-90-Days Tactics
 
 Concrete, not aspirational: what actually happens before Phase 1 can be called underway.
@@ -309,7 +317,7 @@ Afrispan begins as a founder-led practice. The first hire, once revenue supports
 
 ## 12. Founder and Team
 
-### Steve Onyeke, Founder and AI Product Lead
+### Steve Onyeke, Founder and AI Governance Lead
 
 Over eight years of enterprise technology delivery and risk governance experience, including as Technology Risk and Data Governance Analyst in a regulated healthtech environment, authoring data governance policy achieving full regulatory audit readiness and delivering bi-monthly C-suite risk reporting across a two-hundred-person organisation. Currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing, performing large-scale side-by-side model evaluation. MBA, Nexford University. BSc Computer Science, University of Jos. Based in Manchester, United Kingdom, with West Africa as primary market focus and regular in-market presence planned.
 

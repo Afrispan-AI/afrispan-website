@@ -165,10 +165,11 @@ HOME_CONTENT = f"""
     </div>
     <div class="founder-card">
       <div class="founder-content">
-        <span class="founder-role">Steve Onyeke, Founder and AI Product Lead</span>
+        <span class="founder-role">Steve Onyeke, Founder and AI Governance Lead</span>
         <p>Steve brings over eight years of enterprise technology risk and data governance experience, including as a Technology Risk and Data Governance Analyst in a regulated healthtech environment, where he authored data governance policy that achieved full regulatory audit readiness and delivered bi-monthly C-suite risk reporting across a two-hundred-person organisation.</p>
         <p>He is currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme delivered through Turing, performing large-scale side-by-side model evaluation. He holds an MBA from Nexford University and a BSc in Computer Science from the University of Jos, and is based in Manchester, United Kingdom, with West Africa as Afrispan's primary market and regular in-market presence planned.</p>
         <p>Few AI assurance practices, in Nigeria or globally, can pair hands-on technical evaluation work with enterprise governance experience in one person. That combination is why Afrispan's assessments look at how a system actually behaves, not only at what its policy documents claim.</p>
+        <p>Alongside its Nigerian registration, Afrispan is progressing a formal UK corporate registration, reflecting the founder's genuine base in Manchester, United Kingdom. This registration is currently underway, not yet complete.</p>
       </div>
     </div>
   </div>
