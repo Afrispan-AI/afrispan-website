@@ -6,7 +6,7 @@
 
 *AI Deployment Assurance for Nigerian and West African Enterprises*
 
-Prepared by: Steve Onyeke, Founder and AI Product Lead
+Prepared by: Steve Onyeke, Founder and AI Governance Lead
 
 August 2026
 
@@ -70,7 +70,7 @@ A West Africa where no enterprise deploys an AI system that materially affects a
 
 ### Founding Story and Rationale
 
-Afrispan was founded in January 2024 by Steve Onyeke, Founder and AI Governance Lead, with over eight years of enterprise technology risk and delivery governance experience, most recently as a Technology Risk and Data Governance Analyst in a regulated healthtech environment, and currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing. Afrispan's technical foundation was built as a deliberate, evidence-first curriculum, not a theoretical framework, resulting in real, working governance systems, kill-switches, cross-model evaluation architecture, red-teaming mapped to international security standards, and live orchestration infrastructure, published openly and independently verifiable.
+Afrispan was founded in January 2024 by Steve Onyeke, Founder and AI Governance Lead, with over a decade of technology, risk, and governance experience built across Nigeria, the United Kingdom, and global technology platforms, including as a Technology Risk and Data Governance Analyst in a regulated environment, as a Cybersecurity and Data Risk Analyst for Althaus Digital in the United Kingdom, in stakeholder and community engagement work with Binance, and currently as an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing. Afrispan's technical foundation was built as a deliberate, evidence-first curriculum, not a theoretical framework, resulting in real, working governance systems, kill-switches, cross-model evaluation architecture, red-teaming mapped to international security standards, and live orchestration infrastructure, published openly and independently verifiable.
 
 ### Legal Structure and Geography
 
@@ -319,7 +319,7 @@ Afrispan begins as a founder-led practice. The first hire, once revenue supports
 
 ### Steve Onyeke, Founder and AI Governance Lead
 
-Over eight years of enterprise technology delivery and risk governance experience, including as Technology Risk and Data Governance Analyst in a regulated healthtech environment, authoring data governance policy achieving full regulatory audit readiness and delivering bi-monthly C-suite risk reporting across a two-hundred-person organisation. Currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing, performing large-scale side-by-side model evaluation. MBA, Nexford University. BSc Computer Science, University of Jos. Based in Manchester, United Kingdom, with West Africa as primary market focus and regular in-market presence planned.
+Over a decade of technology, risk, and governance experience built across Nigeria, the United Kingdom, and global technology platforms. Progressed into a dedicated Technology Risk and Data Governance Analyst role in a regulated environment, authoring data governance policy achieving full regulatory audit readiness and delivering bi-monthly C-suite risk reporting across a two-hundred-person organisation. In the United Kingdom, worked as a Cybersecurity and Data Risk Analyst for Althaus Digital, and brings direct, firsthand exposure to how a major global platform actually operates from stakeholder and community engagement work with Binance, one of the world's largest crypto exchanges. Currently an AI Quality Analyst on a Google-commissioned Gemini evaluation programme through Turing, performing large-scale model evaluation. Based in Manchester, United Kingdom, with West Africa as primary market focus and regular in-market presence planned.
 
 This dual positioning, hands-on technical builder and enterprise governance professional, is itself a differentiator few AI assurance practices, in Nigeria or globally, can claim in one person. The technical portfolio underlying this plan was built, tested, and independently verified by the founder directly, not commissioned from a separate technical team.
 
