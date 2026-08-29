@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static site builder for the Afrispan Data Labs website.
+"""Static site builder for the Afrispan AI Assurance website.
 
 Renders shared header/nav/footer around per-page content blocks so all six
 pages stay visually and structurally consistent. Output is flat, dependency-
@@ -7,9 +7,9 @@ free HTML written to the project root, ready to deploy to any static host.
 """
 import re
 
-GITHUB_URL = "https://github.com/Afrispan-Data-Labs/ai-governance-suite"
-SITE_NAME = "Afrispan Data Labs"
-DOMAIN = "afrispan.com"
+GITHUB_URL = "https://github.com/Afrispan-AI/ai-governance-suite"
+SITE_NAME = "Afrispan AI Assurance"
+DOMAIN = "afrispanai.com"
 CONTACT_EMAIL = f"contact@{DOMAIN}"
 X_URL = "https://x.com/afrispan"
 LINKEDIN_URL = "https://linkedin.com/company/afrispan-data-labs"
@@ -49,7 +49,7 @@ HEAD = """<!doctype html>
 <header class="site-header">
   <div class="nav-inner">
     <a class="brand" href="index.html" aria-label="{site_name} home">
-      <img class="wordmark" src="assets/images/afrispan-wordmark-trimmed.png" alt="{site_name}">
+      <img class="wordmark" src="assets/images/afrispan-wordmark-new-light.png" alt="{site_name}">
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -70,7 +70,7 @@ FOOTER = """</main>
       <div>
         <div class="footer-brand">
           <img src="assets/images/afrispan-badge-circle.png" alt="" style="width:38px;height:38px;border-radius:50%;">
-          <span>AFRISPAN<br><small>DATA LABS</small></span>
+          <span>AFRISPAN<br><small>AI ASSURANCE</small></span>
         </div>
         <p style="color:#AAB9D6; max-width: 320px;">Independent AI deployment assurance for Nigerian and West African enterprises. Evidence-based verification, not vendor assertion.</p>
       </div>
@@ -103,7 +103,7 @@ FOOTER = """</main>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 Afrispan Data Labs. Founder-funded and pre-revenue.</span>
+      <span>&copy; 2026 Afrispan AI Assurance. Founder-funded and pre-revenue.</span>
       <span>Engagement terms and professional indemnity cover are being finalized ahead of first paid engagements.</span>
     </div>
   </div>

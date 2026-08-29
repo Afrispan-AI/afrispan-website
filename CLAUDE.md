@@ -4,7 +4,7 @@ This file is read automatically at the start of every Claude Code session in thi
 
 ## What This Repository Is
 
-The Afrispan Data Labs marketing website. A dependency-light static site, plain HTML, CSS, and JavaScript, no framework, no backend, no client login or subscription system. That last point is a deliberate decision, not a limitation, see `docs/BUSINESS_CONTEXT.md` for the full reasoning if it's ever questioned.
+The Afrispan AI Assurance marketing website. A dependency-light static site, plain HTML, CSS, and JavaScript, no framework, no backend, no client login or subscription system. That last point is a deliberate decision, not a limitation, see `docs/BUSINESS_CONTEXT.md` for the full reasoning if it's ever questioned.
 
 `build.py` and `pages.py` are the source build tooling, they render a shared header and footer around each page's own content so all pages stay visually consistent. The `.html` files in the root are the actual generated output, flat, portable, deployable as-is with no build step required at deploy time. When adding or editing a page, extend `pages.py` and re-run `build.py` rather than hand-editing the generated HTML files directly, since a hand-edit will be silently overwritten the next time the build script runs.
 
@@ -14,12 +14,12 @@ The Afrispan Data Labs marketing website. A dependency-light static site, plain 
 index.html              Home
 regulatory-case.html    The regulatory argument (Nigeria's AI governance landscape)
 services.html           The six service lines
-proof.html              Technical portfolio, links to github.com/Afrispan-Data-Labs/ai-governance-suite
+proof.html              Technical portfolio, links to github.com/Afrispan-AI/ai-governance-suite
 engagement.html         Engagement tiers, no pricing numbers (see Non-Negotiable Rules)
 contact.html            Contact and discovery-call conversion path
 css/style.css
 js/main.js
-assets/images/          Real, final brand assets: afrispan-wordmark-trimmed.png, afrispan-badge-circle.png, favicons
+assets/images/          Real, final brand assets: afrispan-wordmark-new-dark.png, afrispan-wordmark-new-light.png, afrispan-badge-circle.png, favicons
 build.py, pages.py      Source templates, regenerate the HTML pages, do not hand-edit generated HTML directly
 docs/BUSINESS_CONTEXT.md  Full business plan, regulatory, and technical portfolio detail, read this for anything not covered here
 ```

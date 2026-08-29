@@ -1,10 +1,10 @@
-# Afrispan Data Labs: Website Build Context
+# Afrispan AI Assurance: Website Build Context
 
-This document is the complete handoff for building the Afrispan Data Labs website. It exists so the new conversation starts with everything already settled, not re-debated. Read this in full before proposing any structure, copy, or design direction.
+This document is the complete handoff for building the Afrispan AI Assurance website. It exists so the new conversation starts with everything already settled, not re-debated. Read this in full before proposing any structure, copy, or design direction.
 
 ## Who This Is For
 
-Steve Onyeke, founder of Afrispan Data Labs, an AI deployment assurance practice. Currently also an AI Quality Analyst at Turing on a Google-commissioned Gemini evaluation programme, and separately in an active, ongoing interview process for a Talabat AI Governance Engineer role in Dubai. Afrispan is the founder's own company and long-term focus; the technical portfolio behind it doubles as both Afrispan's real capability and Steve's own career evidence.
+Steve Onyeke, founder of Afrispan AI Assurance, an AI deployment assurance practice. Currently also an AI Quality Analyst at Turing on a Google-commissioned Gemini evaluation programme, and separately in an active, ongoing interview process for a Talabat AI Governance Engineer role in Dubai. Afrispan is the founder's own company and long-term focus; the technical portfolio behind it doubles as both Afrispan's real capability and Steve's own career evidence.
 
 ## The Single Most Important Decision Already Made, Do Not Re-litigate This
 
@@ -23,14 +23,14 @@ Steve Onyeke, founder of Afrispan Data Labs, an AI deployment assurance practice
 
 ## Company Facts
 
-- **Name:** Afrispan Data Labs
+- **Name:** Afrispan AI Assurance
 - **Founder:** Steve Onyeke, Founder and AI Governance Lead
 - **Mission:** To make African enterprises deploying AI systems provably safe, compliant, and accountable, through independent, evidence-based verification rather than vendor assertion.
 - **UK connection, stated honestly, not overstated:** the founder is based in Manchester, United Kingdom. A formal UK corporate registration is currently underway alongside the Nigerian registration, treated as in progress, not yet complete, the same honest-status treatment as the domain registration below. This is a real, deliberate credibility factor for Nigerian buyers who value foreign-linked technical assurance, not a UK go-to-market strategy, that remains explicitly out of scope.
 - **Social profiles:** X at x.com/afrispan, LinkedIn at linkedin.com/company/afrispan-data-labs.
 - **Primary market:** Nigeria, specifically Lagos first, fintech and digital-first SMEs. This is a deliberate revision from Afrispan's original 2024 Ghana-first plan, reasoned in the business plan on scale and regulatory-timing grounds, not a change of mission. Ghana and wider ECOWAS remain a real phase-two market via AfCFTA.
 - **Status:** Founder-funded, pre-revenue, actively pursuing first paid engagements.
-- **GitHub:** github.com/Afrispan-Data-Labs/ai-governance-suite, public, migrated with full commit history intact from the original personal repository. The old personal repo (github.com/steveonyeke/python-ai-governance) should carry a note pointing here and be archived, not deleted, since it's still linked from Steve's own career materials.
+- **GitHub:** github.com/Afrispan-AI/ai-governance-suite, public, migrated with full commit history intact from the original personal repository. The old personal repo (github.com/steveonyeke/python-ai-governance) should carry a note pointing here and be archived, not deleted, since it's still linked from Steve's own career materials.
 
 ## The Regulatory Argument, the Website's Real Hook
 
@@ -69,7 +69,7 @@ Full detail lives in the repository's own `CLAUDE.md` and `docs/PROJECT_HISTORY.
 
 - **Colors:** Deep Navy #0D2B5B (primary, must dominate), Emerald Green #00A651 (accent, sparing), Sunrise Orange #FF7A00 (accent, sparing).
 - **Typography:** Headlines in Manrope SemiBold/Bold. Body and UI text in Inter Regular/Medium. Long-form documents may use Source Serif 4.
-- **Real logo assets exist**: a horizontal wordmark (navy background, white "AFRISPAN DATA LABS" text, green and orange underline accents either side of "DATA LABS") and a standalone circular navy badge with a white stylised arch-and-peak "A" mark. These are real, final assets, not placeholders, upload them fresh to this new chat since files do not carry across conversations. Do not reconstruct or reinterpret the logo from memory or description.
+- **Real logo assets exist**: a horizontal wordmark, provided in both a dark-background variant (navy background, white "AFRISPAN AI ASSURANCE" text) and a light-background variant (light background, navy "AFRISPAN AI ASSURANCE" text), each with green and orange underline accents either side of "AI ASSURANCE", and a standalone circular navy badge with a white stylised arch-and-peak "A" mark. These are real, final assets, not placeholders, upload them fresh to this new chat since files do not carry across conversations. Do not reconstruct or reinterpret the logo from memory or description.
 
 ## Non-Negotiable Rules, Carried Over From The Entire Project
 
@@ -79,8 +79,9 @@ Full detail lives in the repository's own `CLAUDE.md` and `docs/PROJECT_HISTORY.
 
 ## Open Items Not Yet Resolved, Worth Surfacing Early In The New Chat
 
-- **Domain name:** not yet chosen. This blocks a proper Afrispan email address and should likely be one of the first decisions in the new chat, before deep design work.
-- **Dedicated Afrispan email:** not yet set up; currently a placeholder or personal address is being used for GitHub organisation contact purposes.
+- **Domain name, confirmed:** afrispanai.com. Registration is in progress, not yet complete, treat this the same as every other in-progress fact in this document, real and committed, not yet live. Do not represent the domain as resolving until registration is confirmed.
+- **Dedicated Afrispan email, confirmed:** contact@afrispanai.com. Same status as the domain itself, the address is decided, not yet operational until the domain finishes registering.
+- **Correction needed on the live site, check for both prior placeholders:** the site went through two earlier domain placeholders before this final decision, afrispan.com first, then briefly afrispandata.com. It is not confirmed which of the two, if either, is currently live on the site, do not assume either is already clean. Check for both. Replace any instance of afrispan.com or afrispandata.com, and any instance of contact@afrispan.com or contact@afrispandata.com, with afrispanai.com and contact@afrispanai.com respectively.
 - **Pricing:** the business plan's figures are explicitly illustrative, anchored against real Nigerian professional-services rates and an international SME compliance-audit benchmark, but not yet validated against a real client quote. The website should avoid stating specific prices until this is resolved, a "contact for pricing" or engagement-tiers-without-numbers approach fits the current stage better.
 - **Liability and professional indemnity:** the business plan flags that a qualified Nigerian lawyer should review the engagement contract template and confirm indemnity cover before the first paid client, this has not yet happened. The website's own terms and any contact-form disclaimers should not overstate guarantees Afrispan cannot yet legally back.
 

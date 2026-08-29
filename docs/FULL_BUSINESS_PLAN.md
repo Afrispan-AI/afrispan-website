@@ -1,4 +1,4 @@
-# Afrispan Data Labs: Institutional Business Plan
+# Afrispan AI Assurance: Institutional Business Plan
 
 *Full reference document, converted from the original institutional business plan. See docs/BUSINESS_CONTEXT.md for the condensed summary.*
 
@@ -48,7 +48,7 @@ Contents
 
 ## 1. Executive Summary
 
-Afrispan Data Labs is an AI deployment assurance practice serving Nigerian and West African enterprises deploying AI systems into production. The company's core proposition is straightforward: an AI system should not be trusted to be safe, compliant, and well-governed simply because a vendor asserts it is. It should be independently verified, with evidence, the same discipline financial audit has applied to accounting for a century, now applied to AI.
+Afrispan AI Assurance is an AI deployment assurance practice serving Nigerian and West African enterprises deploying AI systems into production. The company's core proposition is straightforward: an AI system should not be trusted to be safe, compliant, and well-governed simply because a vendor asserts it is. It should be independently verified, with evidence, the same discipline financial audit has applied to accounting for a century, now applied to AI.
 
 Afrispan's founding thesis is that Nigeria's AI governance landscape is at a genuine inflection point. The country published its National Artificial Intelligence Strategy in September 2025, and a National Digital Economy and E-Governance Bill, expected to pass in 2026, will give Nigeria's National Information Technology Development Agency (NITDA) formal, risk-based regulatory authority over AI, including mandatory licensing and annual impact assessments for high-risk systems in finance, public administration, and automated decision-making. Critically, as of this writing, the independent oversight body the strategy itself calls for has not yet been constituted, and NITDA's own Code of Practice for AI remains unfinalized. This creates a real, time-bound window: enterprises that build governance capability now, ahead of mandatory enforcement, will be positioned to comply quickly once it lands. Those that wait will be building under regulatory pressure, at higher cost and with less runway.
 
@@ -74,7 +74,7 @@ Afrispan was founded in January 2024 by Steve Onyeke, Founder and AI Governance 
 
 ### Legal Structure and Geography
 
-Afrispan Data Labs operates with a genuine dual-market foundation, not an aspirational one. The founder is based in Manchester, United Kingdom, giving Afrispan direct, current proximity to the international standards, EU AI Act, NIST AI RMF, ISO/IEC 42001, its methodology is built against, and to the institutional and investor-grade due diligence norms Nigerian enterprises increasingly need to satisfy. A formal United Kingdom corporate registration is underway alongside the company's Nigerian registration, both treated as near-term, committed milestones, not completed facts, consistent with this plan's own discipline of never stating a pending action as already finished.
+Afrispan AI Assurance operates with a genuine dual-market foundation, not an aspirational one. The founder is based in Manchester, United Kingdom, giving Afrispan direct, current proximity to the international standards, EU AI Act, NIST AI RMF, ISO/IEC 42001, its methodology is built against, and to the institutional and investor-grade due diligence norms Nigerian enterprises increasingly need to satisfy. A formal United Kingdom corporate registration is underway alongside the company's Nigerian registration, both treated as near-term, committed milestones, not completed facts, consistent with this plan's own discipline of never stating a pending action as already finished.
 
 Primary commercial and delivery operations are based in Lagos, Nigeria's principal technology and financial services hub. This is a deliberate choice: Lagos hosts the Central Bank of Nigeria's AI-focused fintech sandbox, a growing concentration of NITDA-adjacent policy activity, and, per recent industry reporting, Africa's first regional AI safety institute, placing Afrispan inside the country's actual centre of AI governance activity rather than adjacent to it.
 
@@ -286,7 +286,7 @@ Concrete, not aspirational: what actually happens before Phase 1 can be called u
 
 ## 10. Technology and Intellectual Property
 
-Afrispan's technical foundation is public, verifiable, and substantial, a genuine asset most early-stage assurance practices cannot demonstrate. It spans three connected projects on GitHub, publicly available at github.com/Afrispan-Data-Labs/ai-governance-suite.
+Afrispan's technical foundation is public, verifiable, and substantial, a genuine asset most early-stage assurance practices cannot demonstrate. It spans three connected projects on GitHub, publicly available at github.com/Afrispan-AI/ai-governance-suite.
 
 |             |                                                                                                                                                |                                                    |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
@@ -420,7 +420,7 @@ Afrispan's core service is telling a client their AI system is, or is not, safe 
 
 ## 16. Appendix: Evidence and References
 
-Full technical portfolio: github.com/Afrispan-Data-Labs/ai-governance-suite
+Full technical portfolio: github.com/Afrispan-AI/ai-governance-suite
 
 Key regulatory sources cited in Section 5: Nigeria Data Protection Act 2023; National Artificial Intelligence Strategy, Federal Ministry of Communications, Innovation and Digital Economy, September 2025; National Digital Economy and E-Governance Bill, reported provisions as of 2026; independent policy analysis of NAIS implementation status, April 2026.
 
@@ -428,4 +428,4 @@ Key market data sources cited in Section 4: Small and Medium Enterprises Develop
 
 **A Final Note on This Document's Own Standard:** This plan applies the same evidentiary discipline to itself that Afrispan applies to every client engagement. Every regulatory and market claim is sourced. Every financial projection is labeled as an assumption, not a fact. Every technical capability referenced is real, tested, and publicly checkable. That discipline is not a formatting choice, it is the actual product Afrispan sells, applied here first.
 
-**Afrispan Data Labs \| Institutional Business Plan \| August 2026**
+**Afrispan AI Assurance \| Institutional Business Plan \| August 2026**

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Per-page content blocks for the Afrispan Data Labs site.
+"""Per-page content blocks for the Afrispan AI Assurance site.
 
 All copy is sourced from the Institutional Business Plan (August 2026) and
 the founder-provided build brief. No figures are invented; where a claim is
@@ -7,7 +7,7 @@ illustrative or unresolved, it is stated as such. No em dashes are used
 anywhere in this file, by house rule.
 """
 
-GITHUB_URL = "https://github.com/Afrispan-Data-Labs/ai-governance-suite"
+GITHUB_URL = "https://github.com/Afrispan-AI/ai-governance-suite"
 
 # ---------------------------------------------------------------------------
 # Shared inline icons (simple stroke-based SVGs, no external icon library)
@@ -39,15 +39,15 @@ def status_tag(kind):
 # HOME
 # ---------------------------------------------------------------------------
 
-HOME_TITLE = "Afrispan Data Labs | Independent AI Deployment Assurance for Nigeria and West Africa"
-HOME_DESC = "Afrispan Data Labs independently verifies that AI systems deployed by Nigerian and West African enterprises are safe, compliant, and governed, with evidence, not vendor assertion."
+HOME_TITLE = "Afrispan AI Assurance | Independent AI Deployment Assurance for Nigeria and West Africa"
+HOME_DESC = "Afrispan AI Assurance independently verifies that AI systems deployed by Nigerian and West African enterprises are safe, compliant, and governed, with evidence, not vendor assertion."
 
 HOME_CONTENT = f"""
 <section class="hero">
   <div class="container">
     <span class="eyebrow">Nigeria's AI Governance Window Is Open</span>
     <h1>Prove your AI systems are governed, before the law requires it.</h1>
-    <p class="lede">Afrispan Data Labs is an independent AI deployment assurance practice for Nigerian and West African enterprises. We verify what your AI systems actually do, with evidence, not vendor assertion, the same discipline financial audit has applied to accounting for a century, now applied to AI.</p>
+    <p class="lede">Afrispan AI Assurance is an independent AI deployment assurance practice for Nigerian and West African enterprises. We verify what your AI systems actually do, with evidence, not vendor assertion, the same discipline financial audit has applied to accounting for a century, now applied to AI.</p>
     <div class="hero-ctas">
       <a class="btn btn-primary" href="contact.html">Book a discovery call</a>
       <a class="btn btn-secondary" href="{GITHUB_URL}" target="_blank" rel="noopener">View the technical portfolio on GitHub</a>
@@ -192,7 +192,7 @@ HOME_CONTENT = f"""
 # THE REGULATORY CASE
 # ---------------------------------------------------------------------------
 
-REG_TITLE = "The Regulatory Case | Afrispan Data Labs"
+REG_TITLE = "The Regulatory Case | Afrispan AI Assurance"
 REG_DESC = "Why Nigeria's coming AI regulation creates a real, time-bound window for private-sector assurance, sourced from Nigeria's National AI Strategy and the National Digital Economy and E-Governance Bill."
 
 REG_CONTENT = f"""
@@ -271,7 +271,7 @@ REG_CONTENT = f"""
 # SERVICES
 # ---------------------------------------------------------------------------
 
-SERVICES_TITLE = "Service Lines | Afrispan Data Labs"
+SERVICES_TITLE = "Service Lines | Afrispan AI Assurance"
 SERVICES_DESC = "Six service lines, from Regulatory Conformity Assessment to Governance Orchestration, each grounded in a real, working technical capability and tagged honestly by its status."
 
 def _service_block(number, anchor, title, status_kind, icon_name, body_paragraphs, extra=""):
@@ -391,7 +391,7 @@ SERVICES_CONTENT = f"""
 # PROOF (technical portfolio)
 # ---------------------------------------------------------------------------
 
-PROOF_TITLE = "Technical Proof | Afrispan Data Labs"
+PROOF_TITLE = "Technical Proof | Afrispan AI Assurance"
 PROOF_DESC = "The full, verifiable technical portfolio behind Afrispan's service lines: three GitHub projects, nine governance phases, a production evaluation architecture, and live governance orchestration."
 
 PROOF_CONTENT = f"""
@@ -448,7 +448,7 @@ PROOF_CONTENT = f"""
     <div class="section-head">
       <span class="kicker">The Portfolio</span>
       <h2>Three connected projects, full commit history intact</h2>
-      <p>Published openly at <a href="{GITHUB_URL}" target="_blank" rel="noopener">github.com/Afrispan-Data-Labs/ai-governance-suite</a>, migrated with full commit history from the founder's original personal repository.</p>
+      <p>Published openly at <a href="{GITHUB_URL}" target="_blank" rel="noopener">github.com/Afrispan-AI/ai-governance-suite</a>, migrated with full commit history from the founder's original personal repository.</p>
     </div>
     <div class="table-wrap">
       <table class="data-table">
@@ -516,7 +516,7 @@ PROOF_CONTENT = f"""
 # ENGAGEMENT
 # ---------------------------------------------------------------------------
 
-ENGAGEMENT_TITLE = "Engagement | Afrispan Data Labs"
+ENGAGEMENT_TITLE = "Engagement | Afrispan AI Assurance"
 ENGAGEMENT_DESC = "How Afrispan engagements are structured: fixed-scope assessments, implementation and orchestration projects, ongoing monitoring, and workflow automation. Scoped and quoted directly, no published rate card yet."
 
 ENGAGEMENT_CONTENT = f"""
@@ -599,8 +599,8 @@ ENGAGEMENT_CONTENT = f"""
 # CONTACT
 # ---------------------------------------------------------------------------
 
-CONTACT_TITLE = "Contact | Afrispan Data Labs"
-CONTACT_DESC = "Start a conversation about your AI system with Afrispan Data Labs. No client portal, no signup form, just a direct discovery conversation."
+CONTACT_TITLE = "Contact | Afrispan AI Assurance"
+CONTACT_DESC = "Start a conversation about your AI system with Afrispan AI Assurance. No client portal, no signup form, just a direct discovery conversation."
 
 CONTACT_CONTENT = f"""
 <section class="hero-page section-navy">
@@ -616,7 +616,7 @@ CONTACT_CONTENT = f"""
     <div class="grid grid-2">
       <div>
         <h2>Reach us directly</h2>
-        <p><a class="btn btn-primary" href="mailto:contact@afrispan.com">Email contact@afrispan.com</a></p>
+        <p><a class="btn btn-primary" href="mailto:contact@afrispanai.com">Email contact@afrispanai.com</a></p>
         <p class="small-note">Afrispan's domain registration is in progress, so this address may not be receiving mail yet. Until it is confirmed live, the GitHub organisation page below is the current, working point of contact.</p>
         <ul class="tier-list" style="margin-top:20px;">
           <li>Operating base: Lagos, Nigeria</li>
