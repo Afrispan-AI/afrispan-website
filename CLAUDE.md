@@ -19,7 +19,7 @@ engagement.html         Engagement tiers, no pricing numbers (see Non-Negotiable
 contact.html            Contact and discovery-call conversion path
 css/style.css
 js/main.js
-assets/images/          Real, final brand assets: afrispan-wordmark-new-dark.png, afrispan-wordmark-new-light.png (originals, heavy padding, not used directly), afrispan-wordmark-new-light-trimmed.png (used in the header), afrispan-wordmark-new-dark-trimmed.png (cropped, currently unused), afrispan-badge-circle.png, favicons
+assets/images/          Real, final brand assets: afrispan-wordmark-new-dark.png, afrispan-wordmark-new-light.png (originals, heavy padding, not used directly), afrispan-wordmark-new-light-trimmed.png (cropped, opaque background, unused), afrispan-wordmark-new-light-transparent.png (used in the header), afrispan-wordmark-new-dark-trimmed.png (cropped, currently unused), afrispan-badge-circle.png, favicons
 build.py, pages.py      Source templates, regenerate the HTML pages, do not hand-edit generated HTML directly
 docs/BUSINESS_CONTEXT.md  Full business plan, regulatory, and technical portfolio detail, read this for anything not covered here
 ```
