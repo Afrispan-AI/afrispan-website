@@ -87,6 +87,7 @@ FOOTER = """</main>
         <h4>Work With Us</h4>
         <ul>
           <li><a href="engagement.html">Engagement</a></li>
+          <li><a href="engagement.html#faq">FAQ</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="{github}" target="_blank" rel="noopener">GitHub Portfolio</a></li>
         </ul>

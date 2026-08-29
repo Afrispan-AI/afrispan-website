@@ -167,27 +167,31 @@ The Central Bank of Nigeria's regulatory sandbox, launched 2023 and expanded thr
 
 Every service Afrispan offers is grounded in a real, working technical capability, publicly demonstrable on GitHub, not a service description written ahead of the capability existing.
 
-### Service Line 1: Regulatory Conformity Assessment
+### Service Line 1: AI Governance Gap Analysis
+
+Before the full Conformity Report, a faster, direct starting point: a structured consultation surfacing exactly where AI is genuinely in use across the business, who's accountable for it, and where the real exposure actually sits. Delivered as a working AI systems inventory, use-case-level risk findings, named accountability gaps, an ISO/IEC 42001 alignment check, and a prioritised roadmap ordered by real risk, distilled into a summary built for the board, not just the technical team.
+
+### Service Line 2: Regulatory Conformity Assessment
 
 A structured assessment scoring a client's AI system against multiple regulatory and standards frameworks simultaneously, EU AI Act, NIST AI RMF, NIST AI 600-1, and ISO/IEC 42001, with Nigeria's own emerging framework mapped in directly as it finalises. Built on Afrispan's own twenty-two obligation Conformity Report methodology. Untested obligations are marked as such explicitly, never silently omitted, the same evidentiary honesty a real audit demands.
 
-### Service Line 2: Fundamental Rights and Impact Assessment
+### Service Line 3: Fundamental Rights and Impact Assessment
 
 A structured, documented assessment of an AI system's impact on the people it affects, directly aligned with the annual impact assessment requirement expected under Nigeria's coming AI legislation. Generated from a real audit trail wherever automated evidence exists, tagging every field as automated, attested by direct client input, or explicitly missing, never filled with a plausible guess.
 
-### Service Line 3: Cross-Border Deployment Framework
+### Service Line 4: Cross-Border Deployment Framework
 
 For clients operating or expanding across West Africa, an honest assessment of whether compliance evidence built for one jurisdiction actually transfers to another, rather than an assumption that it does. Given AfCFTA's active push toward regional MSME trade integration, this is a direct, near-term need for Nigerian enterprises expanding into Ghana, and the wider ECOWAS market.
 
-### Service Line 4: Evaluation and Red-Team Engagement
+### Service Line 5: Evaluation and Red-Team Engagement
 
 Technical evaluation of an AI system's actual behaviour, cross-model judging to avoid the self-audit blind spot described in Section 3, adversarial red-teaming mapped to the OWASP LLM and Agentic Top 10 and MITRE ATLAS taxonomies, and drift monitoring to catch a system quietly degrading over time, not only when it fails outright.
 
-### Service Line 5: Governance Orchestration and Human Oversight Enforcement
+### Service Line 6: Governance Orchestration and Human Oversight Enforcement
 
 The service line that distinguishes Afrispan most sharply from a traditional audit or consulting practice. Building the live infrastructure that makes governance operational: automated routing of AI decisions to confident-pass, confident-fail, or human-review queues, a kill-switch that halts automated action immediately and independently the moment a serious finding occurs, and a resume mechanism that requires a named, accountable person to record a substantive decision, not a single approval click, before automated operation continues. This is built on real, demonstrable orchestration technology, not a policy document describing what a client should build themselves.
 
-### Service Line 6: Complex Workflow Automation, Governed by Design
+### Service Line 7: Complex Workflow Automation, Governed by Design
 
 For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements it with the same governance discipline already proven in its own live infrastructure, the same kill-switch enforcement and human-oversight routing demonstrated in Afrispan's own Project 3 build, applied to a client's specific automation, built in from the start, not retrofitted after deployment. This positions Afrispan as able to serve a client across their full AI adoption journey, not only the assurance layer.
 
@@ -198,7 +202,7 @@ For clients whose need extends beyond assessment into building the AI-powered au
 | **Competitor Type**                          | **Example**                                        | **Why Afrispan Differentiates**                                                                                                           |
 | Global Big Four and management consultancies | Deloitte, PwC, EY, KPMG AI risk practices          | Real, high-cost engagements, typically priced for large enterprise, not structured for Nigerian SME budgets or delivery speed             |
 | Global AI evaluation platforms               | Vendors selling evaluation-as-a-service software   | Software-only, no regional regulatory context, no local presence, limited human-in-the-loop enforcement infrastructure                    |
-| Generic AI automation agencies               | Agencies building chatbots and workflow automation | Build automation without governance discipline built in, the exact gap Afrispan's Service Line 6 is designed to close                     |
+| Generic AI automation agencies               | Agencies building chatbots and workflow automation | Build automation without governance discipline built in, the exact gap Afrispan's Service Line 7 is designed to close                     |
 | Internal compliance or IT teams              | In-house SME staff handling this informally        | Lack independent verification credibility, and typically lack the specific technical evaluation methodology Afrispan has built and proven |
 
 ### Named Competitors in the Actual Nigerian Market
@@ -238,11 +242,11 @@ No competitor currently occupies the combination of genuinely working, verifiabl
 
 - **Fixed-scope assessment engagements:** a defined Conformity Report, FRIA, or Cross-Border Framework deliverable, priced per engagement, the natural first purchase for a new client.
 
-- **Implementation and orchestration projects:** building the governance orchestration and human-oversight enforcement infrastructure described in Service Line 5, priced per project given its greater scope and integration work.
+- **Implementation and orchestration projects:** building the governance orchestration and human-oversight enforcement infrastructure described in Service Line 6, priced per project given its greater scope and integration work.
 
 - **Ongoing monitoring subscriptions:** recurring revenue for continued drift monitoring, regression alerting, and periodic re-assessment once initial governance infrastructure is in place, the natural expansion revenue from an existing client.
 
-- **Workflow automation projects:** Service Line 6 engagements, priced per project, often the entry point for clients whose primary need is automation rather than assurance, with governance capability introduced as part of the same engagement.
+- **Workflow automation projects:** Service Line 7 engagements, priced per project, often the entry point for clients whose primary need is automation rather than assurance, with governance capability introduced as part of the same engagement.
 
 ### Pricing Philosophy
 
@@ -305,7 +309,7 @@ Afrispan's core methodology is currently published openly, a deliberate choice s
 
 ### Delivery Model
 
-Engagements follow a structured methodology: initial scoping and system inventory, assessment against the relevant frameworks, documented findings with evidence tagged honestly by strength, from automated and verified through to explicitly missing, and, where the engagement includes Service Line 5 or 6, implementation of the actual governance or automation infrastructure, followed by a defined verification step before an engagement is considered complete.
+Engagements follow a structured methodology: initial scoping and system inventory, assessment against the relevant frameworks, documented findings with evidence tagged honestly by strength, from automated and verified through to explicitly missing, and, where the engagement includes Service Line 6 or 7, implementation of the actual governance or automation infrastructure, followed by a defined verification step before an engagement is considered complete.
 
 ### Tooling
 
@@ -333,7 +337,7 @@ Since no real client pricing history exists yet, illustrative figures in this pl
 
 - **Local anchor:** Nigerian professional and consulting services firms commonly charge between 1,000,000 and 3,000,000 naira annually for ongoing advisory work, with standalone audit engagements commonly ranging from 500,000 naira upward, depending on complexity. Afrispan's fixed-scope assessments should be positioned within and below this range for an initial SME engagement, reflecting genuine accessibility rather than premium-consultancy pricing.
 
-- **International anchor:** SME-scale IT security and compliance audits internationally commonly range from 1,000 to 5,000 US dollars, rising toward 15,000 US dollars annually for larger organisations, a useful ceiling reference for Afrispan's more technically involved engagements, such as Service Line 5 orchestration implementation, without assuming Nigerian SME budgets can bear the higher end of that range unmodified.
+- **International anchor:** SME-scale IT security and compliance audits internationally commonly range from 1,000 to 5,000 US dollars, rising toward 15,000 US dollars annually for larger organisations, a useful ceiling reference for Afrispan's more technically involved engagements, such as Service Line 6 orchestration implementation, without assuming Nigerian SME budgets can bear the higher end of that range unmodified.
 
 - **A formal reference framework worth adopting:** the Computer Professionals Registration Council of Nigeria publishes an official Scale of Professional Charges covering systems audit, quality assurance, and risk impact assessment and review, the same category of work Afrispan performs. Benchmarking Afrispan's own rate card against this published, government-recognised scale, once finalised pricing exists, adds a further layer of institutional credibility beyond an internally set rate.
 
@@ -344,10 +348,10 @@ Modelled bottom-up from the SOM in Section 4, not top-down from the full MSME ma
 |                                               |                           |                           |                           |
 |-----------------------------------------------|---------------------------|---------------------------|---------------------------|
 | **Revenue Line**                              | **Year 1 (Illustrative)** | **Year 2 (Illustrative)** | **Year 3 (Illustrative)** |
-| Fixed-scope assessments (Service Lines 1-3)   | 6-10 engagements          | 18-25 engagements         | 35-50 engagements         |
-| Orchestration implementation (Service Line 5) | 1-2 projects              | 5-8 projects              | 12-18 projects            |
+| Fixed-scope assessments (Service Lines 2-4)   | 6-10 engagements          | 18-25 engagements         | 35-50 engagements         |
+| Orchestration implementation (Service Line 6) | 1-2 projects              | 5-8 projects              | 12-18 projects            |
 | Monitoring subscriptions (recurring)          | 0-2 active                | 8-15 active               | 25-40 active              |
-| Workflow automation (Service Line 6)          | 1-3 projects              | 6-10 projects             | 15-22 projects            |
+| Workflow automation (Service Line 7)          | 1-3 projects              | 6-10 projects             | 15-22 projects            |
 
 These ranges are deliberately wide, reflecting genuine uncertainty at pre-revenue stage, not false confidence narrowed to look precise. They should be replaced with a single, defended figure per line once the first two or three real client contracts exist to anchor pricing and conversion assumptions.
 

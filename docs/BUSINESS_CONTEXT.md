@@ -44,12 +44,13 @@ This is the sharpest, most current argument in the business plan and should anch
 
 ## Service Lines, What The Site Needs To Describe Clearly
 
-1. **Regulatory Conformity Assessment**, scored against EU AI Act, NIST AI RMF, NIST AI 600-1, and ISO/IEC 42001 simultaneously, twenty-two obligations, untested ones marked as such, never omitted.
-2. **Fundamental Rights and Impact Assessment**, aligned directly with Nigeria's coming annual impact assessment requirement.
-3. **Cross-Border Deployment Framework**, an honest check of whether compliance evidence actually transfers between Nigeria, Ghana, and wider ECOWAS, not an assumption that it does.
-4. **Evaluation and Red-Team Engagement**, cross-model judging, adversarial testing mapped to OWASP LLM and Agentic Top 10 and MITRE ATLAS, drift monitoring.
-5. **Governance Orchestration and Human Oversight Enforcement**, the differentiator: live infrastructure, not policy documents, automated routing, an immediate independent kill-switch, a resume mechanism requiring a named, substantive human decision.
-6. **Complex Workflow Automation, Governed by Design**, building AI-powered business automation with the same assurance discipline built in from day one.
+1. **AI Governance Gap Analysis**, the lighter, faster entry point ahead of the full Conformity Report, a structured consultation surfacing where AI is genuinely in use, who's accountable for it, and where the real exposure sits.
+2. **Regulatory Conformity Assessment**, scored against EU AI Act, NIST AI RMF, NIST AI 600-1, and ISO/IEC 42001 simultaneously, twenty-two obligations, untested ones marked as such, never omitted.
+3. **Fundamental Rights and Impact Assessment**, aligned directly with Nigeria's coming annual impact assessment requirement.
+4. **Cross-Border Deployment Framework**, an honest check of whether compliance evidence actually transfers between Nigeria, Ghana, and wider ECOWAS, not an assumption that it does.
+5. **Evaluation and Red-Team Engagement**, cross-model judging, adversarial testing mapped to OWASP LLM and Agentic Top 10 and MITRE ATLAS, drift monitoring.
+6. **Governance Orchestration and Human Oversight Enforcement**, the differentiator: live infrastructure, not policy documents, automated routing, an immediate independent kill-switch, a resume mechanism requiring a named, substantive human decision.
+7. **Complex Workflow Automation, Governed by Design**, building AI-powered business automation with the same assurance discipline built in from day one.
 
 ## Competitive Positioning, Real and Sourced
 

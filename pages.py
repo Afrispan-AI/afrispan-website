@@ -272,7 +272,7 @@ REG_CONTENT = f"""
 # ---------------------------------------------------------------------------
 
 SERVICES_TITLE = "Service Lines | Afrispan AI Assurance"
-SERVICES_DESC = "Six service lines, from Regulatory Conformity Assessment to Governance Orchestration, each grounded in a real, working technical capability and tagged honestly by its status."
+SERVICES_DESC = "Seven service lines, from AI Governance Gap Analysis to Complex Workflow Automation, each grounded in a real, working technical capability and tagged honestly by its status."
 
 def _service_block(number, anchor, title, status_kind, icon_name, body_paragraphs, extra=""):
     paras = "".join(f"<p>{p}</p>" for p in body_paragraphs)
@@ -297,51 +297,56 @@ SERVICES_CONTENT = f"""
 <section class="hero-page section-navy">
   <div class="container">
     <span class="eyebrow">Service Lines</span>
-    <h1>Six ways we help you prove your AI systems are governed</h1>
+    <h1>Seven ways we help you prove your AI systems are governed</h1>
     <p class="lede">Every service Afrispan offers is grounded in a real, working technical capability, publicly demonstrable on GitHub, not a service description written ahead of the capability existing. Each line below is tagged honestly by its actual status.</p>
     <div class="jump-nav">
-      <a href="#conformity">1. Conformity Assessment</a>
-      <a href="#fria">2. Impact Assessment</a>
-      <a href="#cross-border">3. Cross-Border Framework</a>
-      <a href="#evaluation">4. Evaluation and Red-Team</a>
-      <a href="#orchestration">5. Governance Orchestration</a>
-      <a href="#automation">6. Workflow Automation</a>
+      <a href="#gap-analysis">1. Gap Analysis</a>
+      <a href="#conformity">2. Conformity Assessment</a>
+      <a href="#fria">3. Impact Assessment</a>
+      <a href="#cross-border">4. Cross-Border Framework</a>
+      <a href="#evaluation">5. Evaluation and Red-Team</a>
+      <a href="#orchestration">6. Governance Orchestration</a>
+      <a href="#automation">7. Workflow Automation</a>
     </div>
   </div>
 </section>
 
 <section class="tight">
   <div class="container">
-    {_service_block(1, "conformity", "Regulatory Conformity Assessment", "proven", "shield", [
+    {_service_block(1, "gap-analysis", "AI Governance Gap Analysis", "proven", "compass", [
+        "Before the full Conformity Report, a faster, direct starting point: a structured consultation surfacing exactly where AI is genuinely in use across the business, who's accountable for it, and where the real exposure actually sits. Delivered as a working AI systems inventory, use-case-level risk findings, named accountability gaps, an ISO/IEC 42001 alignment check, and a prioritised roadmap ordered by real risk, distilled into a summary built for the board, not just the technical team.",
+    ])}
+
+    {_service_block(2, "conformity", "Regulatory Conformity Assessment", "proven", "shield", [
         "A structured assessment scoring your AI system against multiple regulatory and standards frameworks simultaneously: EU AI Act, NIST AI RMF, NIST AI 600-1, and ISO/IEC 42001, with Nigeria's own emerging framework mapped in directly as it finalises.",
         "Built on Afrispan's own twenty-two-obligation Conformity Report methodology. Untested obligations are marked as such explicitly, never silently omitted, the same evidentiary honesty a real audit demands.",
     ])}
 
-    {_service_block(2, "fria", "Fundamental Rights and Impact Assessment", "proven", "doc", [
+    {_service_block(3, "fria", "Fundamental Rights and Impact Assessment", "proven", "doc", [
         "A structured, documented assessment of your AI system's impact on the people it affects, directly aligned with the annual impact assessment expected under Nigeria's coming AI legislation.",
         "Generated from a real audit trail wherever automated evidence exists, with every field tagged as automated, attested by direct client input, or explicitly missing, never filled with a plausible guess.",
     ])}
 
-    {_service_block(3, "cross-border", "Cross-Border Deployment Framework", "proven", "globe", [
+    {_service_block(4, "cross-border", "Cross-Border Deployment Framework", "proven", "globe", [
         "For clients operating or expanding across West Africa, an honest assessment of whether compliance evidence actually transfers between Nigeria, Ghana, and the wider ECOWAS market, rather than an assumption that it does.",
         "Given the African Continental Free Trade Area's active push toward regional MSME trade integration, this is a direct, near-term need for Nigerian enterprises expanding into Ghana and the wider ECOWAS market.",
     ])}
 
-    {_service_block(4, "evaluation", "Evaluation and Red-Team Engagement", "building", "eye", [
+    {_service_block(5, "evaluation", "Evaluation and Red-Team Engagement", "building", "eye", [
         "Technical evaluation of an AI system's actual behaviour. Cross-model judging avoids the self-audit blind spot our own testing has measured directly: a same-family AI judge evaluating identical output showed a 0.15 point quality inflation and a 0.23 point gap in catching real errors, compared to an independent, cross-model evaluator.",
         "Adversarial red-teaming is mapped to the OWASP LLM and Agentic Top 10 and MITRE ATLAS taxonomies, with drift monitoring to catch a system quietly degrading over time, not only when it fails outright.",
         "Stated honestly: the evaluation architecture is complete and pytest-verified, but most notebooks run in simulated mode pending funded API billing. This is stated plainly wherever relevant, never implied otherwise.",
     ])}
 
-    {_service_block(5, "orchestration", "Governance Orchestration and Human Oversight Enforcement", "proven", "switch", [
+    {_service_block(6, "orchestration", "Governance Orchestration and Human Oversight Enforcement", "proven", "switch", [
         "The service line that distinguishes Afrispan most sharply from a traditional audit or consulting practice: live infrastructure that makes governance operational, not a policy document describing what a client should build themselves.",
         "Automated routing sends AI decisions to confident-pass, confident-fail, or human-review queues. A kill-switch halts automated action immediately and independently the moment a serious finding occurs. A resume mechanism requires a named, accountable person to record a substantive decision, not a single approval click, before automated operation continues.",
         "This is the first phase of Afrispan's technical portfolio to reach a real milestone: built, tested, and verified on real local hardware, not simulated.",
     ])}
 
-    {_service_block(6, "automation", "Complex Workflow Automation, Governed by Design", "proven", "bolt", [
+    {_service_block(7, "automation", "Complex Workflow Automation, Governed by Design", "proven", "bolt", [
         "For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements it with the same governance discipline already proven in its own live infrastructure, the same kill-switch enforcement and human-oversight routing demonstrated in Afrispan's own Project 3 build, applied to a client's specific automation, built in from the start, not retrofitted after deployment.",
-        "This builds directly on the orchestration technology proven in Service Line 5, and positions Afrispan to serve a client across their full AI adoption journey, not only at the assurance layer.",
+        "This builds directly on the orchestration technology proven in Service Line 6, and positions Afrispan to serve a client across their full AI adoption journey, not only at the assurance layer.",
     ])}
   </div>
 </section>
@@ -544,7 +549,7 @@ ENGAGEMENT_CONTENT = f"""
       </div>
       <div class="tier-card">
         <span class="tier-name">Implementation and Orchestration Project</span>
-        <span class="tier-for">Best for: building live governance infrastructure, Service Line 5</span>
+        <span class="tier-for">Best for: building live governance infrastructure, Service Line 6</span>
         <div class="tier-price">Priced per project, reflecting integration scope</div>
         <ul class="tier-list">
           <li>Automated decision routing to pass, fail, or human-review queues</li>
@@ -578,6 +583,105 @@ ENGAGEMENT_CONTENT = f"""
     <div class="callout" style="margin-top:8px;">
       <span class="callout-label">How pricing is being approached</span>
       <p>Afrispan's pricing is being developed to be genuinely accessible to Nigerian SMEs, not a scaled-down version of global consultancy rates, anchored against real Nigerian professional-services benchmarks and international SME compliance-audit reference points, not invented figures. A published rate card will follow once pricing has been validated against real client engagements. Until then, every quote reflects your specific system, scope, and evidence needs, discussed directly.</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Frequently Asked Questions</span>
+      <h2>Common questions about working with Afrispan</h2>
+    </div>
+
+    <div class="service-block">
+      <h3>Is Afrispan an established company?</h3>
+      <p>Afrispan is a newly founded practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>How do I know your technical claims are real?</h3>
+      <p>Every methodology described on this site is published, open-source, and independently checkable, not asserted in a proposal. Full technical portfolio: <a href="{GITHUB_URL}" target="_blank" rel="noopener">github.com/Afrispan-AI/ai-governance-suite</a>.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>What do we get after an AI Governance Gap Analysis?</h3>
+      <p>A clear, honest picture of where things actually stand, not a generic template report:</p>
+      <ul class="tier-list">
+        <li><strong>Full AI systems inventory:</strong> every system currently operating across the business, including the ones that crept in without anyone formally deciding to adopt them.</li>
+        <li><strong>Use-case risk assessment:</strong> each system assessed for its actual risk, not a blanket rating applied across the board.</li>
+        <li><strong>Accountability findings:</strong> where ownership is genuinely unclear, who owns a decision and who'd answer for it if something went wrong, named directly, not glossed over.</li>
+        <li><strong>ISO/IEC 42001 alignment check:</strong> showing exactly where a future certification effort would need to focus.</li>
+        <li><strong>Prioritised remediation roadmap:</strong> ordered by actual risk, not by what's easiest to fix first.</li>
+        <li><strong>Board-level executive summary:</strong> distilled for board reporting, not a document only a technical team could use.</li>
+      </ul>
+    </div>
+
+    <div class="service-block">
+      <h3>What does the Gap Analysis consultation actually involve?</h3>
+      <p>A direct working session, not a form to fill in:</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">01</span>
+          <h4>What's actually in use</h4>
+          <p>Where AI is genuinely operating across the business right now.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">02</span>
+          <h4>Who's accountable</h4>
+          <p>Who answers for it if one of those systems gets something wrong.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">03</span>
+          <h4>What data is involved</h4>
+          <p>What company and client data is really flowing through it.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">04</span>
+          <h4>Supplier exposure</h4>
+          <p>Whether a vendor has quietly introduced AI into a process without anyone signing off on it.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">05</span>
+          <h4>Where the exposure sits</h4>
+          <p>The real operational or commercial risk, named specifically.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">06</span>
+          <h4>What to fix first</h4>
+          <p>What needs addressing immediately versus what can reasonably wait.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-block">
+      <h3>Why isn't pricing listed on this site?</h3>
+      <p>Contact us directly for scope and cost specific to your situation.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>Is this a one-time assessment, or ongoing?</h3>
+      <p>Both, depending on your need. A Conformity Report or FRIA is a fixed-scope engagement. Once that foundation exists, ongoing monitoring for drift and regression is available as a recurring service.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>What does an engagement actually involve, start to finish?</h3>
+      <p>Initial scoping and system inventory, assessment against the relevant frameworks, documented findings with evidence tagged honestly by strength, and, where the engagement includes implementation work, building the actual governance infrastructure, followed by a defined verification step.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>Do you need access to our system's code, or can this work from documentation alone?</h3>
+      <p>It depends on the assessment's depth. A Conformity Report can often proceed from documentation and stakeholder interviews. Technical evaluation, red-teaming, drift monitoring, requires real access to the system itself, since these findings can't be produced from paperwork.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>Which frameworks do you assess against?</h3>
+      <p>The EU AI Act, NIST AI RMF and its Generative AI Profile, and ISO/IEC 42001, mapped simultaneously in a single Conformity Report rather than assessed one at a time.</p>
+    </div>
+
+    <div class="service-block">
+      <h3>What if the Digital Economy and E-Governance Bill's timeline changes?</h3>
+      <p>The underlying discipline holds value regardless of one bill's exact passage date. Independent verification that an AI system is safe and well-governed is worth having whether mandatory enforcement lands this year or later.</p>
     </div>
   </div>
 </section>
