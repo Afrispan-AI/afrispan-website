@@ -29,7 +29,7 @@ Steve Onyeke, founder of Afrispan AI Assurance, an AI deployment assurance pract
 - **UK connection, stated honestly, not overstated:** the founder is based in Manchester, United Kingdom. A formal UK corporate registration is currently underway alongside the Nigerian registration, treated as in progress, not yet complete, the same honest-status treatment as the domain registration below. This is a real, deliberate credibility factor for Nigerian buyers who value foreign-linked technical assurance, not a UK go-to-market strategy, that remains explicitly out of scope.
 - **Social profiles:** X at x.com/afrispan, LinkedIn at linkedin.com/company/afrispan-data-labs.
 - **Primary market:** Nigeria, specifically Lagos first, fintech and digital-first SMEs. This is a deliberate revision from Afrispan's original 2024 Ghana-first plan, reasoned in the business plan on scale and regulatory-timing grounds, not a change of mission. Ghana and wider ECOWAS remain a real phase-two market via AfCFTA.
-- **Status:** Founder-funded, pre-revenue, actively pursuing first paid engagements.
+- **Status:** A governance practice built on the founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity, founder-funded and actively pursuing first paid engagements.
 - **GitHub:** github.com/Afrispan-AI/ai-governance-suite, public, migrated with full commit history intact from the original personal repository. The old personal repo (github.com/steveonyeke/python-ai-governance) should carry a note pointing here and be archived, not deleted, since it's still linked from Steve's own career materials.
 
 ## The Regulatory Argument, the Website's Real Hook
@@ -53,7 +53,7 @@ This is the sharpest, most current argument in the business plan and should anch
 
 ## Competitive Positioning, Real and Sourced
 
-Every organisation on Nigeria's own official licensed DPCO registry, EY and KPMG's Nigerian affiliates, DataPro, Pavestones Legal, Hephzibah, Johan Consults, is a generalist data-protection auditor. None publish a technical methodology for evaluating an AI system's actual behaviour. That is Afrispan's real, documented market gap, not an assumed differentiation. The website should lean on this specific, checkable fact rather than generic "we're different" language.
+Every organisation on Nigeria's own official licensed DPCO registry, EY and KPMG's Nigerian affiliates, DataPro, Pavestones Legal, Hephzibah, Johan Consults, is a generalist data-protection auditor. None publish a technical methodology for evaluating an AI system's actual behaviour, and none produce the specific evidentiary outputs Afrispan does as a result: a Conformity Report scored against multiple international frameworks at once, a Fundamental Rights Impact Assessment built from a real audit trail, or a Cross-Border Deployment Framework testing whether compliance evidence actually transfers between jurisdictions. That is Afrispan's real, documented market gap, not piles of policy documents with zero engineering translation behind them, not an assumed differentiation. The website should lean on this specific, checkable fact rather than generic "we're different" language.
 
 ## The Technical Portfolio, What The Site Links To As Proof
 

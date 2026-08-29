@@ -119,7 +119,7 @@ HOME_CONTENT = f"""
         <div class="icon-badge">{icon('bolt')}</div>
         <h3>Complex Workflow Automation, Governed by Design</h3>
         <p>AI-powered business automation with the same assurance discipline built in from day one, not retrofitted after deployment.</p>
-        {status_tag('building')}
+        {status_tag('proven')}
       </div>
     </div>
     <p style="margin-top:28px;"><a class="btn btn-outline-navy" href="services.html">See the full detail on each service line &rarr;</a></p>
@@ -339,8 +339,8 @@ SERVICES_CONTENT = f"""
         "This is the first phase of Afrispan's technical portfolio to reach a real milestone: built, tested, and verified on real local hardware, not simulated.",
     ])}
 
-    {_service_block(6, "automation", "Complex Workflow Automation, Governed by Design", "building", "bolt", [
-        "For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements the automation with the same assurance discipline built in from the start, not retrofitted after deployment.",
+    {_service_block(6, "automation", "Complex Workflow Automation, Governed by Design", "proven", "bolt", [
+        "For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements it with the same governance discipline already proven in its own live infrastructure, the same kill-switch enforcement and human-oversight routing demonstrated in Afrispan's own Project 3 build, applied to a client's specific automation, built in from the start, not retrofitted after deployment.",
         "This builds directly on the orchestration technology proven in Service Line 5, and positions Afrispan to serve a client across their full AI adoption journey, not only at the assurance layer.",
     ])}
   </div>
@@ -368,7 +368,7 @@ SERVICES_CONTENT = f"""
     </div>
     <div class="callout">
       <span class="callout-label">The real, sourced gap this reveals</span>
-      <p>Every organisation on Nigeria's own licensed DPCO list is a general data protection auditor, a law firm, an accounting affiliate, or a generalist IT consultancy. None publish a technical methodology for evaluating an AI system's actual behaviour: cross-model judging to catch a same-family evaluator's blind spots, adversarial red-teaming mapped to OWASP or MITRE ATLAS, or drift monitoring to catch a system degrading over time. That is the precise, sourced gap Afrispan is built to fill, not a claimed differentiation, a documented absence in the current market.</p>
+      <p>None publish a technical methodology for evaluating an AI system's actual behaviour, and none produce the specific evidentiary outputs Afrispan does as a result: a Conformity Report scored against multiple international frameworks at once, a Fundamental Rights Impact Assessment built from a real audit trail, or a Cross-Border Deployment Framework testing whether compliance evidence actually transfers between jurisdictions. Cross-model judging, adversarial red-teaming mapped to OWASP and MITRE ATLAS, and drift monitoring are the mechanisms behind those documents, not abstractions on their own. Not piles of policy documents with zero engineering translations. That is the precise, sourced gap Afrispan is built to fill, not a claimed differentiation, a documented absence in the current market.</p>
     </div>
   </div>
 </section>
@@ -488,11 +488,11 @@ PROOF_CONTENT = f"""
       <h2>What this is actually built on</h2>
     </div>
     <div class="grid grid-3">
-      <div class="card-flat"><h4>Evaluation and observability</h4><p>RAGAS, DeepEval, and Langfuse.</p></div>
-      <div class="card-flat"><h4>Red-teaming</h4><p>Promptfoo, mapped to OWASP LLM and Agentic Top 10, and MITRE ATLAS.</p></div>
-      <div class="card-flat"><h4>Governance orchestration</h4><p>n8n, for automated routing and human-oversight enforcement.</p></div>
-      <div class="card-flat"><h4>CI/CD verification</h4><p>GitHub Actions, for a verified, repeatable pipeline.</p></div>
-      <div class="card-flat"><h4>Engineering delivery</h4><p>Claude Code, with the same discipline of small, verified increments and honest status tagging used throughout this portfolio.</p></div>
+      <div class="card-flat"><h4>Evaluation and observability</h4><p>RAGAS, DeepEval, and Langfuse power the test harness and drift monitoring layer, real evaluation scoring, regression alarms watching for degradation over time, and full observability tracing behind every judgment made.</p></div>
+      <div class="card-flat"><h4>Red-teaming</h4><p>Promptfoo drives adversarial payload testing and red-teaming, mapped to OWASP and MITRE ATLAS.</p></div>
+      <div class="card-flat"><h4>Governance orchestration</h4><p>n8n handles governance orchestration and human-oversight enforcement.</p></div>
+      <div class="card-flat"><h4>CI/CD verification</h4><p>GitHub Actions verifies the CI/CD pipeline.</p></div>
+      <div class="card-flat"><h4>Engineering delivery</h4><p>Claude Code delivers the engineering itself, with the same discipline of small, verified increments and honest status tagging used throughout Afrispan's own technical foundation.</p></div>
       <div class="card-flat"><h4>Original repository</h4><p>The founder's original personal repository at github.com/steveonyeke/python-ai-governance carries a note pointing to the current organisation repository and remains archived, not deleted.</p></div>
     </div>
   </div>
@@ -649,7 +649,7 @@ CONTACT_CONTENT = f"""
 
     <div class="callout" style="margin-top:44px;">
       <span class="callout-label">An honest note on where Afrispan is today</span>
-      <p>Afrispan is a founder-funded, pre-revenue practice, actively finalising its engagement contract terms and confirming professional indemnity cover ahead of its first paid engagements. Nothing on this site constitutes a guarantee of regulatory outcome, a certification, or legal advice. Every assessment's findings are stated honestly by their evidentiary basis, and every engagement contract will define its scope and liability explicitly before work begins.</p>
+      <p>Afrispan is a governance practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity it is founder-funded and actively finalising engagement contract terms and confirming professional indemnity cover ahead of its paid engagements. Nothing on this site constitutes a guarantee of regulatory outcome, a certification, or legal advice. Every assessment's findings are stated honestly by their evidentiary basis, and every engagement contract will define its scope and liability explicitly before work begins.</p>
     </div>
   </div>
 </section>

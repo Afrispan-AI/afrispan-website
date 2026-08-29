@@ -56,7 +56,7 @@ Nigeria's addressable market is substantial and growing quickly. The country has
 
 Afrispan's technical capability is not aspirational. It is built, tested, and publicly demonstrable across three connected open-source projects totaling nine governance phases, a thirteen-notebook production evaluation suite with a verified CI/CD pipeline, and a live governance orchestration layer built in n8n, enforcing human oversight on autonomous AI decisions in real time. This is a genuine technical moat few assurance practices, in Nigeria or globally, can currently demonstrate with working code rather than slide decks.
 
-Afrispan is currently founder-funded and pre-revenue, structured to close its first paid engagements in Nigeria within the next two quarters, expand across West Africa via the African Continental Free Trade Area's SME trade infrastructure, and build toward a defensible position as the region's most technically credible AI assurance practice.
+Afrispan is a governance practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity it is founder-funded and pre-revenue, structured to close its first paid engagements in Nigeria within the next two quarters, expand across West Africa via the African Continental Free Trade Area's SME trade infrastructure, and build toward a defensible position as the region's most technically credible AI assurance practice.
 
 ## 2. Company Overview
 
@@ -189,7 +189,7 @@ The service line that distinguishes Afrispan most sharply from a traditional aud
 
 ### Service Line 6: Complex Workflow Automation, Governed by Design
 
-For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements the automation with the same assurance discipline built in from the start, not retrofitted after deployment. This positions Afrispan as able to serve a client across their full AI adoption journey, not only the assurance layer.
+For clients whose need extends beyond assessment into building the AI-powered automation itself, sales, customer support, lead management, and internal operations, Afrispan designs and implements it with the same governance discipline already proven in its own live infrastructure, the same kill-switch enforcement and human-oversight routing demonstrated in Afrispan's own Project 3 build, applied to a client's specific automation, built in from the start, not retrofitted after deployment. This positions Afrispan as able to serve a client across their full AI adoption journey, not only the assurance layer.
 
 ## 7. Competitive Landscape and Differentiation
 
@@ -214,7 +214,7 @@ This section is grounded in the Nigeria Data Protection Commission's own public 
 | Hephzibah Integrated Technologies | Abuja-based IT and data consulting firm, licensed DPCO | Positions itself as a niche IT and data consultancy across public and private sector clients                       |
 | Johan Consults Ltd                | Licensed DPCO                                          | General data protection compliance consulting                                                                      |
 
-**The Real, Sourced Gap This Reveals:** Every organisation on Nigeria's own licensed DPCO list is a general data protection auditor, a law firm, an accounting affiliate, or a generalist IT consultancy. None publish a technical methodology for evaluating an AI system's actual behaviour, cross-model judging to catch a same-family evaluator's blind spots, adversarial red-teaming mapped to OWASP or MITRE ATLAS, or drift monitoring to catch a system degrading over time. Independent industry commentary on choosing a DPCO makes this gap explicit: a generalist auditor evaluating an AI-driven credit scoring or fraud-detection system will miss explainability and technical risks a non-technical auditor is not equipped to check. That is the precise, sourced gap Afrispan is built to fill, not a claimed differentiation, a documented absence in the current market.
+**The Real, Sourced Gap This Reveals:** Every organisation on Nigeria's own licensed DPCO list is a general data protection auditor, a law firm, an accounting affiliate, or a generalist IT consultancy. None publish a technical methodology for evaluating an AI system's actual behaviour, and none produce the specific evidentiary outputs Afrispan does as a result: a Conformity Report scored against multiple international frameworks at once, a Fundamental Rights Impact Assessment built from a real audit trail, or a Cross-Border Deployment Framework testing whether compliance evidence actually transfers between jurisdictions. Cross-model judging, adversarial red-teaming mapped to OWASP and MITRE ATLAS, and drift monitoring are the mechanisms behind those documents, not abstractions on their own, not piles of policy documents with zero engineering translation behind them. Independent industry commentary on choosing a DPCO makes this gap explicit: a generalist auditor evaluating an AI-driven credit scoring or fraud-detection system will miss explainability and technical risks a non-technical auditor is not equipped to check. That is the precise, sourced gap Afrispan is built to fill, not a claimed differentiation, a documented absence in the current market.
 
 ### Why the UK Foundation Matters to Nigerian Buyers
 
@@ -309,7 +309,7 @@ Engagements follow a structured methodology: initial scoping and system inventor
 
 ### Tooling
 
-RAGAS, DeepEval, and Langfuse for evaluation and observability. Promptfoo for red-teaming, mapped to OWASP and MITRE ATLAS. n8n for governance orchestration and human-oversight enforcement. GitHub Actions for CI/CD verification. Claude Code for engineering delivery, with the same discipline of small, verified increments and honest status tagging used throughout Afrispan's own technical foundation.
+RAGAS, DeepEval, and Langfuse power the test harness and drift monitoring layer, real evaluation scoring, regression alarms watching for degradation over time, and full observability tracing behind every judgment made. Promptfoo drives adversarial payload testing and red-teaming, mapped to OWASP and MITRE ATLAS. n8n handles governance orchestration and human-oversight enforcement. GitHub Actions verifies the CI/CD pipeline. Claude Code delivers the engineering itself, with the same discipline of small, verified increments and honest status tagging used throughout Afrispan's own technical foundation.
 
 ### Near-Term Hiring Plan
 
