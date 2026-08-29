@@ -12,7 +12,7 @@ SITE_NAME = "Afrispan AI Assurance"
 DOMAIN = "afrispanai.com"
 CONTACT_EMAIL = f"contact@{DOMAIN}"
 X_URL = "https://x.com/afrispan"
-LINKEDIN_URL = "https://linkedin.com/company/afrispan-data-labs"
+LINKEDIN_URL = "https://linkedin.com/company/afrispan-ai"
 
 NAV_ITEMS = [
     ("index.html", "Home"),
