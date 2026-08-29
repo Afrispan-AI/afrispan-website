@@ -594,95 +594,115 @@ ENGAGEMENT_CONTENT = f"""
       <h2>Common questions about working with Afrispan</h2>
     </div>
 
-    <div class="service-block">
-      <h3>Is Afrispan an established company?</h3>
-      <p>Afrispan is a newly founded practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>Is Afrispan an established company?</h3></summary>
+      <div class="faq-answer">
+        <p>Afrispan is a newly founded practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>How do I know your technical claims are real?</h3>
-      <p>Every methodology described on this site is published, open-source, and independently checkable, not asserted in a proposal. Full technical portfolio: <a href="{GITHUB_URL}" target="_blank" rel="noopener">github.com/Afrispan-AI/ai-governance-suite</a>.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>How do I know your technical claims are real?</h3></summary>
+      <div class="faq-answer">
+        <p>Every methodology described on this site is published, open-source, and independently checkable, not asserted in a proposal. Full technical portfolio: <a href="{GITHUB_URL}" target="_blank" rel="noopener">github.com/Afrispan-AI/ai-governance-suite</a>.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>What do we get after an AI Governance Gap Analysis?</h3>
-      <p>A clear, honest picture of where things actually stand, not a generic template report:</p>
-      <ul class="tier-list">
-        <li><strong>Full AI systems inventory:</strong> every system currently operating across the business, including the ones that crept in without anyone formally deciding to adopt them.</li>
-        <li><strong>Use-case risk assessment:</strong> each system assessed for its actual risk, not a blanket rating applied across the board.</li>
-        <li><strong>Accountability findings:</strong> where ownership is genuinely unclear, who owns a decision and who'd answer for it if something went wrong, named directly, not glossed over.</li>
-        <li><strong>ISO/IEC 42001 alignment check:</strong> showing exactly where a future certification effort would need to focus.</li>
-        <li><strong>Prioritised remediation roadmap:</strong> ordered by actual risk, not by what's easiest to fix first.</li>
-        <li><strong>Board-level executive summary:</strong> distilled for board reporting, not a document only a technical team could use.</li>
-      </ul>
-    </div>
+    <details class="faq-item">
+      <summary><h3>What do we get after an AI Governance Gap Analysis?</h3></summary>
+      <div class="faq-answer">
+        <p>A clear, honest picture of where things actually stand, not a generic template report:</p>
+        <ul class="tier-list">
+          <li><strong>Full AI systems inventory:</strong> every system currently operating across the business, including the ones that crept in without anyone formally deciding to adopt them.</li>
+          <li><strong>Use-case risk assessment:</strong> each system assessed for its actual risk, not a blanket rating applied across the board.</li>
+          <li><strong>Accountability findings:</strong> where ownership is genuinely unclear, who owns a decision and who'd answer for it if something went wrong, named directly, not glossed over.</li>
+          <li><strong>ISO/IEC 42001 alignment check:</strong> showing exactly where a future certification effort would need to focus.</li>
+          <li><strong>Prioritised remediation roadmap:</strong> ordered by actual risk, not by what's easiest to fix first.</li>
+          <li><strong>Board-level executive summary:</strong> distilled for board reporting, not a document only a technical team could use.</li>
+        </ul>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>What does the Gap Analysis consultation actually involve?</h3>
-      <p>A direct working session, not a form to fill in:</p>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="timeline-date">01</span>
-          <h4>What's actually in use</h4>
-          <p>Where AI is genuinely operating across the business right now.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-date">02</span>
-          <h4>Who's accountable</h4>
-          <p>Who answers for it if one of those systems gets something wrong.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-date">03</span>
-          <h4>What data is involved</h4>
-          <p>What company and client data is really flowing through it.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-date">04</span>
-          <h4>Supplier exposure</h4>
-          <p>Whether a vendor has quietly introduced AI into a process without anyone signing off on it.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-date">05</span>
-          <h4>Where the exposure sits</h4>
-          <p>The real operational or commercial risk, named specifically.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="timeline-date">06</span>
-          <h4>What to fix first</h4>
-          <p>What needs addressing immediately versus what can reasonably wait.</p>
+    <details class="faq-item">
+      <summary><h3>What does the Gap Analysis consultation actually involve?</h3></summary>
+      <div class="faq-answer">
+        <p>A direct working session, not a form to fill in:</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">01</span>
+            <h4>What's actually in use</h4>
+            <p>Where AI is genuinely operating across the business right now.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">02</span>
+            <h4>Who's accountable</h4>
+            <p>Who answers for it if one of those systems gets something wrong.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">03</span>
+            <h4>What data is involved</h4>
+            <p>What company and client data is really flowing through it.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">04</span>
+            <h4>Supplier exposure</h4>
+            <p>Whether a vendor has quietly introduced AI into a process without anyone signing off on it.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">05</span>
+            <h4>Where the exposure sits</h4>
+            <p>The real operational or commercial risk, named specifically.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">06</span>
+            <h4>What to fix first</h4>
+            <p>What needs addressing immediately versus what can reasonably wait.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </details>
 
-    <div class="service-block">
-      <h3>Why isn't pricing listed on this site?</h3>
-      <p>Contact us directly for scope and cost specific to your situation.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>Why isn't pricing listed on this site?</h3></summary>
+      <div class="faq-answer">
+        <p>Contact us directly for scope and cost specific to your situation.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>Is this a one-time assessment, or ongoing?</h3>
-      <p>Both, depending on your need. A Conformity Report or FRIA is a fixed-scope engagement. Once that foundation exists, ongoing monitoring for drift and regression is available as a recurring service.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>Is this a one-time assessment, or ongoing?</h3></summary>
+      <div class="faq-answer">
+        <p>Both, depending on your need. A Conformity Report or FRIA is a fixed-scope engagement. Once that foundation exists, ongoing monitoring for drift and regression is available as a recurring service.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>What does an engagement actually involve, start to finish?</h3>
-      <p>Initial scoping and system inventory, assessment against the relevant frameworks, documented findings with evidence tagged honestly by strength, and, where the engagement includes implementation work, building the actual governance infrastructure, followed by a defined verification step.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>What does an engagement actually involve, start to finish?</h3></summary>
+      <div class="faq-answer">
+        <p>Initial scoping and system inventory, assessment against the relevant frameworks, documented findings with evidence tagged honestly by strength, and, where the engagement includes implementation work, building the actual governance infrastructure, followed by a defined verification step.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>Do you need access to our system's code, or can this work from documentation alone?</h3>
-      <p>It depends on the assessment's depth. A Conformity Report can often proceed from documentation and stakeholder interviews. Technical evaluation, red-teaming, drift monitoring, requires real access to the system itself, since these findings can't be produced from paperwork.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>Do you need access to our system's code, or can this work from documentation alone?</h3></summary>
+      <div class="faq-answer">
+        <p>It depends on the assessment's depth. A Conformity Report can often proceed from documentation and stakeholder interviews. Technical evaluation, red-teaming, drift monitoring, requires real access to the system itself, since these findings can't be produced from paperwork.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>Which frameworks do you assess against?</h3>
-      <p>The EU AI Act, NIST AI RMF and its Generative AI Profile, and ISO/IEC 42001, mapped simultaneously in a single Conformity Report rather than assessed one at a time.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>Which frameworks do you assess against?</h3></summary>
+      <div class="faq-answer">
+        <p>The EU AI Act, NIST AI RMF and its Generative AI Profile, and ISO/IEC 42001, mapped simultaneously in a single Conformity Report rather than assessed one at a time.</p>
+      </div>
+    </details>
 
-    <div class="service-block">
-      <h3>What if the Digital Economy and E-Governance Bill's timeline changes?</h3>
-      <p>The underlying discipline holds value regardless of one bill's exact passage date. Independent verification that an AI system is safe and well-governed is worth having whether mandatory enforcement lands this year or later.</p>
-    </div>
+    <details class="faq-item">
+      <summary><h3>What if the Digital Economy and E-Governance Bill's timeline changes?</h3></summary>
+      <div class="faq-answer">
+        <p>The underlying discipline holds value regardless of one bill's exact passage date. Independent verification that an AI system is safe and well-governed is worth having whether mandatory enforcement lands this year or later.</p>
+      </div>
+    </details>
   </div>
 </section>
 

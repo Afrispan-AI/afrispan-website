@@ -514,6 +514,34 @@ section.tight { padding: 44px 0; }
   flex-wrap: wrap;
 }
 
+/* ---------- FAQ ---------- */
+.faq-item {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 90px;
+}
+.faq-item:last-child { border-bottom: none; }
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary h3 { margin: 0; }
+.faq-item summary::after {
+  content: "+";
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--navy);
+  flex-shrink: 0;
+}
+.faq-item[open] summary::after { content: "\2212"; }
+.faq-item .faq-answer { margin-top: 16px; }
+
 /* ---------- Table ---------- */
 .table-wrap { overflow-x: auto; margin: 24px 0; border-radius: var(--radius); border: 1px solid var(--line); }
 table.data-table {
