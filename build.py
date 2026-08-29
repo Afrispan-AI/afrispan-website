@@ -49,7 +49,7 @@ HEAD = """<!doctype html>
 <header class="site-header">
   <div class="nav-inner">
     <a class="brand" href="index.html" aria-label="{site_name} home">
-      <img class="wordmark" src="assets/images/afrispan-wordmark-new-light.png" alt="{site_name}">
+      <img class="wordmark" src="assets/images/afrispan-wordmark-new-light-trimmed.png" alt="{site_name}">
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
