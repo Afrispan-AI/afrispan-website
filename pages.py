@@ -785,7 +785,7 @@ CONTACT_CONTENT = f"""
       <h2>Send us a message</h2>
       <p>Tell us about your system and what you need. A direct message, not a form that disappears into a queue.</p>
     </div>
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="contact-form">
+    <form name="contact" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
       <input type="hidden" name="form-name" value="contact">
       <p hidden>
         <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
@@ -821,25 +821,8 @@ CONTACT_CONTENT = f"""
       </div>
       <button type="submit" class="btn btn-primary form-submit">Send message</button>
     </form>
-  </div>
-</section>
-"""
-
-# ---------------------------------------------------------------------------
-# THANK YOU
-# ---------------------------------------------------------------------------
-
-THANKYOU_TITLE = "Thank You | Afrispan AI Assurance"
-THANKYOU_DESC = "Thanks for reaching out to Afrispan AI Assurance. Your message has been received and we will be in touch directly."
-
-THANKYOU_CONTENT = f"""
-<section class="hero-page section-navy">
-  <div class="container">
-    <span class="eyebrow">Message Received</span>
-    <h1>Thank you, we'll be in touch.</h1>
-    <p class="lede">Your message has reached us directly, no automated funnel in between. Someone from Afrispan will follow up personally.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-primary" href="index.html">Back to homepage</a>
+    <div id="form-success" class="form-success" hidden>
+      <strong>Message sent.</strong> Thank you, we've received your message and will be in touch directly.
     </div>
   </div>
 </section>

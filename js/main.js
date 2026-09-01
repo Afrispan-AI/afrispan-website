@@ -13,4 +13,26 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+
+  var contactForm = document.getElementById('contact-form');
+  var formSuccess = document.getElementById('form-success');
+  if (contactForm && formSuccess) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var data = new FormData(contactForm);
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(data).toString(),
+      })
+        .then(function () {
+          contactForm.hidden = true;
+          formSuccess.hidden = false;
+          formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        })
+        .catch(function () {
+          alert('Something went wrong sending your message. Please try emailing us directly instead.');
+        });
+    });
+  }
 });

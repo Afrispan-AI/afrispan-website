@@ -576,6 +576,15 @@ section.tight { padding: 44px 0; }
 }
 .form-field textarea { resize: vertical; min-height: 140px; font-family: inherit; }
 .form-submit { align-self: flex-start; }
+.form-success {
+  margin-top: 20px;
+  background: var(--status-proven-bg);
+  color: var(--status-proven-fg);
+  border: 1px solid var(--status-proven-fg);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  font-size: 0.96rem;
+}
 
 /* ---------- Table ---------- */
 .table-wrap { overflow-x: auto; margin: 24px 0; border-radius: var(--radius); border: 1px solid var(--line); }

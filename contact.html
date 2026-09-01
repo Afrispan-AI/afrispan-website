@@ -100,7 +100,7 @@
       <h2>Send us a message</h2>
       <p>Tell us about your system and what you need. A direct message, not a form that disappears into a queue.</p>
     </div>
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="contact-form">
+    <form name="contact" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
       <input type="hidden" name="form-name" value="contact">
       <p hidden>
         <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
@@ -136,6 +136,9 @@
       </div>
       <button type="submit" class="btn btn-primary form-submit">Send message</button>
     </form>
+    <div id="form-success" class="form-success" hidden>
+      <strong>Message sent.</strong> Thank you, we've received your message and will be in touch directly.
+    </div>
   </div>
 </section>
 </main>

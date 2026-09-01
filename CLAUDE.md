@@ -16,8 +16,7 @@ regulatory-case.html    The regulatory argument (Nigeria's AI governance landsca
 services.html           The six service lines
 proof.html              Technical portfolio, links to github.com/Afrispan-AI/ai-governance-suite
 engagement.html         Engagement tiers, no pricing numbers (see Non-Negotiable Rules)
-contact.html            Contact and discovery-call conversion path, with a real Netlify-hosted form
-thank-you.html          Post-submission confirmation page the contact form redirects to
+contact.html            Contact and discovery-call conversion path, with a real Netlify-hosted form (AJAX-submitted, inline success message, no separate thank-you page)
 css/style.css
 js/main.js
 assets/images/          Real, final brand assets: afrispan-wordmark-new-dark.png, afrispan-wordmark-new-light.png (originals, heavy padding, not used directly), afrispan-wordmark-new-light-trimmed.png (cropped, opaque background, unused), afrispan-wordmark-new-light-transparent.png (used in the header), afrispan-wordmark-new-dark-trimmed.png (cropped, currently unused), afrispan-badge-circle.png, favicons

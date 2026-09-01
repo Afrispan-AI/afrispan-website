@@ -150,5 +150,4 @@ if __name__ == "__main__":
     write("proof.html", pages.PROOF_TITLE, pages.PROOF_DESC, pages.PROOF_CONTENT)
     write("engagement.html", pages.ENGAGEMENT_TITLE, pages.ENGAGEMENT_DESC, pages.ENGAGEMENT_CONTENT)
     write("contact.html", pages.CONTACT_TITLE, pages.CONTACT_DESC, pages.CONTACT_CONTENT)
-    write("thank-you.html", pages.THANKYOU_TITLE, pages.THANKYOU_DESC, pages.THANKYOU_CONTENT)
     print("Build complete.")
