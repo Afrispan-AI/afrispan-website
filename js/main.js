@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
         body: new URLSearchParams(data).toString(),
       })
         .then(function () {
-          contactForm.hidden = true;
+          contactForm.reset();
           formSuccess.hidden = false;
-          formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         })
         .catch(function () {
           alert('Something went wrong sending your message. Please try emailing us directly instead.');
