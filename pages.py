@@ -737,6 +737,51 @@ CONTACT_CONTENT = f"""
 
 <section>
   <div class="container">
+    <div class="section-head">
+      <span class="kicker">Get In Touch</span>
+      <h2>Send us a message</h2>
+      <p>Tell us about your system and what you need. A direct message, not a form that disappears into a queue.</p>
+    </div>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="card contact-form">
+      <input type="hidden" name="form-name" value="contact">
+      <p hidden>
+        <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+      </p>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="firstName">First name</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-field">
+          <label for="lastName">Last name</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone number <span class="optional">(optional)</span></label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="city">City <span class="optional">(optional)</span></label>
+        <input type="text" id="city" name="city">
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">Send message</button>
+    </form>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
     <div class="grid grid-2">
       <div>
         <h2>Reach us directly</h2>
@@ -774,6 +819,26 @@ CONTACT_CONTENT = f"""
     <div class="callout" style="margin-top:44px;">
       <span class="callout-label">An honest note on where Afrispan is today</span>
       <p>Afrispan is a governance practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity it is founder-funded and actively finalising engagement contract terms and confirming professional indemnity cover ahead of its paid engagements. Nothing on this site constitutes a guarantee of regulatory outcome, a certification, or legal advice. Every assessment's findings are stated honestly by their evidentiary basis, and every engagement contract will define its scope and liability explicitly before work begins.</p>
+    </div>
+  </div>
+</section>
+"""
+
+# ---------------------------------------------------------------------------
+# THANK YOU
+# ---------------------------------------------------------------------------
+
+THANKYOU_TITLE = "Thank You | Afrispan AI Assurance"
+THANKYOU_DESC = "Thanks for reaching out to Afrispan AI Assurance. Your message has been received and we will be in touch directly."
+
+THANKYOU_CONTENT = f"""
+<section class="hero-page section-navy">
+  <div class="container">
+    <span class="eyebrow">Message Received</span>
+    <h1>Thank you, we'll be in touch.</h1>
+    <p class="lede">Your message has reached us directly, no automated funnel in between. Someone from Afrispan will follow up personally.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="index.html">Back to homepage</a>
     </div>
   </div>
 </section>

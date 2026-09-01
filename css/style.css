@@ -542,6 +542,41 @@ section.tight { padding: 44px 0; }
 .faq-item[open] summary::after { content: "\2212"; }
 .faq-item .faq-answer { margin-top: 16px; }
 
+/* ---------- Contact form ---------- */
+.contact-form { display: flex; flex-direction: column; gap: 20px; max-width: 640px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 640px) {
+  .form-row { grid-template-columns: 1fr; }
+}
+.form-field { display: flex; flex-direction: column; gap: 6px; }
+.form-field label {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--navy);
+}
+.form-field label .optional {
+  font-weight: 400;
+  color: var(--ink-muted);
+}
+.form-field input, .form-field textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.96rem;
+  color: var(--ink);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.form-field input:focus, .form-field textarea:focus {
+  outline: none;
+  border-color: var(--navy);
+  box-shadow: 0 0 0 3px rgba(13,43,91,0.12);
+}
+.form-field textarea { resize: vertical; min-height: 140px; font-family: inherit; }
+.form-submit { align-self: flex-start; }
+
 /* ---------- Table ---------- */
 .table-wrap { overflow-x: auto; margin: 24px 0; border-radius: var(--radius); border: 1px solid var(--line); }
 table.data-table {
