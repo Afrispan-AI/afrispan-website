@@ -737,6 +737,49 @@ CONTACT_CONTENT = f"""
 
 <section>
   <div class="container">
+    <div class="grid grid-2">
+      <div>
+        <h2>Reach us directly</h2>
+        <p><a class="btn btn-primary" href="mailto:contact@afrispanai.com">Email contact@afrispanai.com</a></p>
+        <p class="small-note">Afrispan's domain is live. Email deliverability from this address is still being verified, so if you do not hear back promptly, the GitHub organisation page below carries a current point of contact.</p>
+        <ul class="tier-list" style="margin-top:20px;">
+          <li>Operating base: Lagos, Nigeria</li>
+          <li>Remote-first, with regular in-market presence planned</li>
+          <li>Primary market: Nigeria, Lagos fintech and digital-first SMEs first</li>
+        </ul>
+        <p style="margin-top:20px;"><a href="{GITHUB_URL}" target="_blank" rel="noopener">View the technical portfolio on GitHub &rarr;</a></p>
+      </div>
+      <div>
+        <h2>What to expect</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">Step 1</span>
+            <h4>Tell us about your system</h4>
+            <p>A short conversation about what your AI system does, who it affects, and what evidence already exists.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Step 2</span>
+            <h4>We scope the right engagement</h4>
+            <p>Conformity Assessment, FRIA, Evaluation, Orchestration, or a combination, matched to your actual need and stage.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Step 3</span>
+            <h4>We agree deliverables before work begins</h4>
+            <p>A clear, reviewable deliverable and evidence standard, agreed upfront, not an open-ended retainer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:44px;">
+      <span class="callout-label">An honest note on where Afrispan is today</span>
+      <p>Afrispan is a governance practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity it is founder-funded and actively finalising engagement contract terms and confirming professional indemnity cover ahead of its paid engagements. Nothing on this site constitutes a guarantee of regulatory outcome, a certification, or legal advice. Every assessment's findings are stated honestly by their evidentiary basis, and every engagement contract will define its scope and liability explicitly before work begins.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
     <div class="section-head">
       <span class="kicker">Get In Touch</span>
       <h2>Send us a message</h2>
@@ -778,49 +821,6 @@ CONTACT_CONTENT = f"""
       </div>
       <button type="submit" class="btn btn-primary form-submit">Send message</button>
     </form>
-  </div>
-</section>
-
-<section class="section-alt">
-  <div class="container">
-    <div class="grid grid-2">
-      <div>
-        <h2>Reach us directly</h2>
-        <p><a class="btn btn-primary" href="mailto:contact@afrispanai.com">Email contact@afrispanai.com</a></p>
-        <p class="small-note">Afrispan's domain is live. Email deliverability from this address is still being verified, so if you do not hear back promptly, the GitHub organisation page below carries a current point of contact.</p>
-        <ul class="tier-list" style="margin-top:20px;">
-          <li>Operating base: Lagos, Nigeria</li>
-          <li>Remote-first, with regular in-market presence planned</li>
-          <li>Primary market: Nigeria, Lagos fintech and digital-first SMEs first</li>
-        </ul>
-        <p style="margin-top:20px;"><a href="{GITHUB_URL}" target="_blank" rel="noopener">View the technical portfolio on GitHub &rarr;</a></p>
-      </div>
-      <div>
-        <h2>What to expect</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span class="timeline-date">Step 1</span>
-            <h4>Tell us about your system</h4>
-            <p>A short conversation about what your AI system does, who it affects, and what evidence already exists.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">Step 2</span>
-            <h4>We scope the right engagement</h4>
-            <p>Conformity Assessment, FRIA, Evaluation, Orchestration, or a combination, matched to your actual need and stage.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">Step 3</span>
-            <h4>We agree deliverables before work begins</h4>
-            <p>A clear, reviewable deliverable and evidence standard, agreed upfront, not an open-ended retainer.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="callout" style="margin-top:44px;">
-      <span class="callout-label">An honest note on where Afrispan is today</span>
-      <p>Afrispan is a governance practice, built on its founder's decade of enterprise technology risk and delivery governance experience, not a venture without a track record. As a corporate entity it is founder-funded and actively finalising engagement contract terms and confirming professional indemnity cover ahead of its paid engagements. Nothing on this site constitutes a guarantee of regulatory outcome, a certification, or legal advice. Every assessment's findings are stated honestly by their evidentiary basis, and every engagement contract will define its scope and liability explicitly before work begins.</p>
-    </div>
   </div>
 </section>
 """
