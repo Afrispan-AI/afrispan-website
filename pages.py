@@ -742,24 +742,25 @@ CONTACT_CONTENT = f"""
       <h2>Send us a message</h2>
       <p>Tell us about your system and what you need. A direct message, not a form that disappears into a queue.</p>
     </div>
-    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="card contact-form">
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" class="contact-form">
       <input type="hidden" name="form-name" value="contact">
       <p hidden>
         <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
       </p>
-      <div class="form-row">
+      <p class="small-note"><span class="required">*</span> Required field</p>
+      <div class="grid grid-2">
         <div class="form-field">
-          <label for="firstName">First name</label>
+          <label for="firstName">First name<span class="required">*</span></label>
           <input type="text" id="firstName" name="firstName" required>
         </div>
         <div class="form-field">
-          <label for="lastName">Last name</label>
+          <label for="lastName">Last name<span class="required">*</span></label>
           <input type="text" id="lastName" name="lastName" required>
         </div>
       </div>
-      <div class="form-row">
+      <div class="grid grid-2">
         <div class="form-field">
-          <label for="email">Email</label>
+          <label for="email">Email<span class="required">*</span></label>
           <input type="email" id="email" name="email" required>
         </div>
         <div class="form-field">
@@ -772,7 +773,7 @@ CONTACT_CONTENT = f"""
         <input type="text" id="city" name="city">
       </div>
       <div class="form-field">
-        <label for="message">Message</label>
+        <label for="message">Message<span class="required">*</span></label>
         <textarea id="message" name="message" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary form-submit">Send message</button>

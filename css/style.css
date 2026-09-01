@@ -543,17 +543,17 @@ section.tight { padding: 44px 0; }
 .faq-item .faq-answer { margin-top: 16px; }
 
 /* ---------- Contact form ---------- */
-.contact-form { display: flex; flex-direction: column; gap: 20px; max-width: 640px; }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-@media (max-width: 640px) {
-  .form-row { grid-template-columns: 1fr; }
-}
+.contact-form { display: flex; flex-direction: column; gap: 24px; }
 .form-field { display: flex; flex-direction: column; gap: 6px; }
 .form-field label {
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 0.88rem;
   color: var(--navy);
+}
+.contact-form .required {
+  color: var(--orange);
+  margin-left: 2px;
 }
 .form-field label .optional {
   font-weight: 400;
